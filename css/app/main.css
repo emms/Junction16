@@ -52,6 +52,18 @@ main {
     height: 100%;
 }
 
+b {
+    font-family: Hack-Bold;
+}
+
+.hide {
+    display: none;
+}
+
+.nav-logo-black {
+    z-index: 100000;
+}
+
 .navbar-collapse {
     text-align: right;
 }
@@ -61,15 +73,19 @@ main {
     float: none;
 }
 
-nav.affix {
-    width: 100%;
-    z-index: 1000;
+.navbar.navtop {
+    background: transparent;
+    transition: 0.5s;
 }
 
 .navbar {
-    background: white;
     border: none;
     border-radius: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background: white;
+    transition: 0.5s;
 }
 
 .navbar li a:hover,
@@ -151,6 +167,7 @@ nav.affix {
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     width: 90%;
     z-index: 100;
@@ -161,7 +178,7 @@ nav.affix {
 }
 
 .main-logo {
-    width: 250px;
+    width: 30%;
     display: block;
     margin: 0 auto;
 }
@@ -456,10 +473,11 @@ input:focus {
     }
 }
 
+
 /* TRACKS */
 
 .tracks-heading {
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .grey-bg {
@@ -473,23 +491,16 @@ input:focus {
     cursor: pointer;
 }
 
+
 /* FAQ */
 
-.faq-container {
-    padding-top: 30px;
-    position: relative;
-}
-
-.faq-a {
-    opacity: 0;
-    position: absolute;
-    padding: 20px 40px 0 0;
-}
+.faq-a {}
 
 .faq-box {
     border: 2px solid #dc5a26;
     padding: 20px;
     position: relative;
+    margin-top: 15px;
 }
 
 .faq-box p {
@@ -497,7 +508,7 @@ input:focus {
 }
 
 .faq-q {
-    width: 90%;
+    padding-bottom: 20px;
 }
 
 .faq-arrow {
