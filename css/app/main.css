@@ -50,6 +50,7 @@ a:hover {
 
 main {
     height: 100%;
+    overflow: hidden;
 }
 
 b {
@@ -238,6 +239,10 @@ b {
     padding: 15% 0 0 0;
 }
 
+.lowest-section {
+    padding-bottom: 15%;
+}
+
 .section-identifier {
     float: left;
     position: absolute;
@@ -309,7 +314,7 @@ b {
     margin-left: -5px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .fullscreen-bg-video {
         display: none;
     }
@@ -340,6 +345,15 @@ b {
     .navbar li a:hover:before,
     .navbar li a:focus:before {
         border-bottom: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .videoWrapper {
+        padding-bottom: 56.25%;
+    }
+    .videoWrapper iframe {
+        height: 100%;
     }
 }
 
@@ -489,6 +503,51 @@ input:focus {
     margin: 10px;
     box-sizing: border-box;
     cursor: pointer;
+}
+
+
+/* LAST YEAR */
+
+.videoWrapper {
+    position: relative;
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.circle-container {
+    margin: 0 auto;
+    display: inline-block;
+    padding-top: 10%;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+}
+
+.circle-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    color: #999;
+    font-size: 16px;
+}
+
+.circle-content b {
+    font-size: 40px;
 }
 
 
