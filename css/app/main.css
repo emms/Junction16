@@ -93,6 +93,11 @@ b {
     transition: 0.5s;
 }
 
+.navbar.navtop li a:hover,
+.navbar.navtop li a:focus {
+    color: #FFF;
+}
+
 .navbar {
     border: none;
     border-radius: 0;
@@ -101,6 +106,7 @@ b {
     z-index: 1000;
     background: white;
     transition: 0.5s;
+    height: 40px;
 }
 
 .navbar li a:hover,
@@ -138,7 +144,6 @@ b {
     width: 100%;
     position: absolute;
     bottom: -300px;
-    text-align: center;
 }
 
 .footer p {
@@ -149,15 +154,29 @@ b {
     margin-top: 30px;
 }
 
-.footer-logo-txt {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+.footer-cont {
+    padding-top: 40px;
+}
+
+.footer-logo {
+    width: 90px;
+    display: inline-block;
+}
+
+.footer-rightcol {
+    text-align: right;
+}
+
+.footer-txt {
+    display: inline-block;
+    width: 80%;
+    font-size: 17px;
+    vertical-align: -webkit-baseline-middle;
+    margin-left: 10px;
 }
 
 .footer-links {
     margin: 0 auto;
-    padding-top: 30px;
 }
 
 .footer-links i {
@@ -169,6 +188,15 @@ b {
 .footer-links i:hover {
     color: black;
     cursor: pointer;
+}
+
+.aaltoes-logo {
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 #skrollr-body {
@@ -202,6 +230,10 @@ b {
 
 .margin0 {
     margin: 0;
+}
+
+.paddingtop30 {
+    padding-top: 30px;
 }
 
 .main-logo {
@@ -247,7 +279,7 @@ b {
 .frontpage-btn a,
 .button a,
 .button p {
-    color: #FFF;
+    color: #5bc8d7;
     font-size: 16px;
     margin: 0;
     cursor: pointer;
@@ -260,6 +292,14 @@ b {
 
 .section {
     padding: 15% 0 0 0;
+}
+
+.section-less-padding {
+    padding: 5% 0 0 0;
+}
+
+.section-medium-padding {
+    padding: 8% 0 0 0;
 }
 
 .lowest-section {
@@ -318,7 +358,7 @@ b {
 }
 
 .white-thick-border {
-    border: 6px solid white;
+    border: 10px solid white;
     overflow: hidden;
     padding: 30px;
 }
@@ -394,10 +434,14 @@ b {
         width: 100%;
     }
     .box-1-height,
+    .box-1-5-height,
     .box-2-height,
     .box-3-height,
     .box-4-height {
         height: 35vh;
+    }
+    .box-1-5-height {
+        padding-top: 6px;
     }
     .track-row-padding {
         padding-top: 0 !important;
@@ -405,8 +449,12 @@ b {
     .track-box {
         margin: 0 !important;
     }
-    .faq-sect {
+    /*.faq-sect {
         padding: 0;
+    }*/
+    #faq {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
@@ -418,8 +466,21 @@ b {
     .videoWrapper iframe {
         height: 100%;
     }
-    .lastyear-intro {
+    .stat-container1 {
         margin-top: 30px;
+    }
+    .track-header {
+        font-size: 20px !important;
+    }
+    .footer-rightcol {
+        text-align: center !important;
+    }
+    .faq-sect-right,
+    .faq-sect-left {
+        padding: initial !important;
+    }
+    .upper-faq-box {
+        margin-top: 20px !important;
     }
 }
 
@@ -439,9 +500,27 @@ b {
     margin-top: 50px;
 }
 
+.text-content {
+    overflow: hidden;
+}
+
+.about-btn {
+    width: 100% !important;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about-btn-left-padding {
+    padding: 0 3% 0 0;
+}
+
+.about-btn-right-padding {
+    padding: 0 0 0 3%;
+}
+
 .button {
     border: 2px solid #5bc8d7;
-    padding: 10px 40px;
+    padding: 10px 35px;
     display: inline-block;
     cursor: pointer;
     transition: 0.5s background-color;
@@ -517,39 +596,6 @@ input:focus {
     cursor: pointer;
 }
 
-#mc_embed_signup .mc-field-group,
-#mc_embed_signup .mc-responses,
-#mc_embed_signup .clear {
-    display: inline;
-}
-
-.overlay {
-    left: 0;
-    top: 0;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, .8);
-    z-index: 200;
-    cursor: pointer;
-    display: none;
-}
-
-.overlay-video {
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-    z-index: 201;
-}
-
-@media only screen and (max-width: 560px) {
-    .overlay-video iframe {
-        width: 90vw;
-    }
-}
-
 
 /* TRACKS */
 
@@ -563,11 +609,25 @@ input:focus {
 
 .track-box {
     display: inline-block;
-    margin: 0 3px;
+    margin: 0 10px;
+    position: relative;
 }
 
 .track-row-padding {
-    padding-top: 3px;
+    padding-top: 18px;
+}
+
+.track-header {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #FFF;
+    font-size: 40px;
+    text-align: right;
+}
+
+.track-header.track-header-smaller {
+    font-size: 20px;
 }
 
 
@@ -582,6 +642,10 @@ input:focus {
 
 .stat-container {
     margin-top: 10px;
+}
+
+.stats {
+    margin-top: 50px;
 }
 
 .stat-texts {
@@ -611,7 +675,7 @@ input:focus {
     border: 2px solid #5bc8d7;
     padding: 20px;
     position: relative;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .faq-box p {
@@ -636,6 +700,18 @@ input:focus {
     color: #5bc8d7;
 }
 
+.upper-faq-box {
+    margin-top: 0;
+}
+
+.faq-sect-left {
+    padding-right: 10px;
+}
+
+.faq-sect-right {
+    padding-left: 10px;
+}
+
 
 /* QUOTE */
 
@@ -646,4 +722,34 @@ input:focus {
 
 .quote-source {
     padding-top: 30px;
+}
+
+.quote-txt {
+    display: inline;
+}
+
+.quotationmark {
+    font-size: 80px;
+    line-height: 0;
+    margin-top: 15px;
+    color: #FFF;
+    vertical-align: middle;
+}
+
+
+/*QUOTE END*/
+
+.back-button {
+    color: #777;
+    font-size: 30px;
+    vertical-align: text-bottom;
+}
+
+.fa-angle-double-left {
+    color: #777;
+}
+
+.divider {
+    border-bottom: 2px solid #777;
+    margin-bottom: 30px;
 }
