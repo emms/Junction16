@@ -109,12 +109,19 @@
                         </div>-->
                         <h5 class="frontpage-txt hidden-xs">NOVEMBER 25-27, 2016 &nbsp; &nbsp;HELSINKI, FINLAND</h5>
                         <h5 class="frontpage-txt visible-xs">NOVEMBER 25-27, 2016 HELSINKI, FINLAND</h5>
-                        <div class="button" style="margin: 0;">
+                        <!--<div class="button" style="margin: 0;">
                             <a href="typeform.html">PRE-REGISTER</a>
+                        </div>-->
+                        <div class="button aftermovie" style="margin: 0;">
+                            <p>JUNCTION 2015 RECAP</p>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="overlay"></div>
+        <div class="overlay-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/osZit7cuaMI" frameborder="0" allowfullscreen></iframe>
         </div>
         <div id="about" class="col-xs-12 section">
             <div class="hidden-xs hidden-sm col-md-5 col-md-offset-1 section-img content-img img-1">
@@ -569,9 +576,11 @@
         $('.button').hover(
             function() {
                 $(this).find('a').css('color', 'black');
+                $(this).find('p').css('color', 'black');
             },
             function() {
                 $(this).find('a').css('color', '#5bc8d7');
+                $(this).find('p').css('color', '#5bc8d7');
             }
         );
         $(this).on('scroll', function() {
@@ -586,10 +595,16 @@
                 $('.nav-logo-white').fadeOut().promise().done(function() {
                     $('.nav-logo-black').fadeIn();
                 });
-
-
             }
+        });
+        $('.aftermovie').on('click', function() {
+            $('.overlay').fadeIn();
+            $('.overlay-video').fadeIn();
+        });
 
+        $('.overlay').on('click', function() {
+            $('.overlay').fadeOut();
+            $('.overlay-video').fadeOut();
         });
     });
     </script>
