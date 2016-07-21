@@ -130,7 +130,7 @@ b {
 
 .navbar li a {
     text-decoration: none;
-    color: grey;
+    color: white;
     transition: 0.5s;
     padding: 15px 7px;
 }
@@ -234,7 +234,7 @@ b {
 .frontpage-txt {
     font-family: Hack-Regular;
     letter-spacing: 5px;
-    color: #888;
+    color: #dc5a26;
     font-size: 1.5em;
     margin-bottom: 5vh;
 }
@@ -824,7 +824,7 @@ input:focus {
     font-size: 80px;
     line-height: 0;
     margin-top: 15px;
-    color: #black;
+    color: black;
     vertical-align: bottom;
 
 }
