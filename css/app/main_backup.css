@@ -87,13 +87,11 @@ b {
 
 .navbar-collapse {
     text-align: right;
-    border: 0px;
 }
 
 .nav.navbar-nav {
     display: inline-block;
     float: none;
-    margin-top: 0px;
 }
 
 .navbar.navtop {
@@ -234,7 +232,7 @@ b {
 .frontpage-txt {
     font-family: Hack-Regular;
     letter-spacing: 5px;
-    color: #888;
+    color: #dc5a26;
     font-size: 1.5em;
     margin-bottom: 5vh;
 }
@@ -458,15 +456,15 @@ b {
         position: fixed;
         right: 0;
         z-index: 1000000;
+        border-radius: 10px;
         background-color: black;
     }
     .nav.navbar-nav {
         text-align: right;
-        background-color: black;
     }
     .navbar li a:hover:before,
     .navbar li a:focus:before {
-        border: 0;
+        border-bottom: 0;
     }
     .navbar li a:hover,
     .navbar li a:focus {
