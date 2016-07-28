@@ -5,6 +5,10 @@
     height: 100%;
 }
 
+.img-some {
+   background-image: url('../../img/junctionsome.jpg');
+}
+
 .img-1 {
     background-image: url('../../img/48hours.jpg');
 }
