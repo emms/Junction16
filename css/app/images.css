@@ -6,8 +6,13 @@
 }
 
 .img-1 {
-    background-image: url('../../img/tracks/48hours.jpg');
+    background-image: url('../../img/48hours.jpg');
 }
+
+
+
+/* Tracks */
+
 
 .vr-img {
     background-image: url('../../img/tracks/vr.jpg');
@@ -52,6 +57,11 @@
 .dde-img {
     background-image: url('../../img/tracks/dde.jpg');
 }
+
+
+
+/* Partners */
+
 
 .partner-logo {
     overflow: hidden;
