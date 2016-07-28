@@ -601,6 +601,13 @@ b {
     /*position: relative;*/
 }
 
+
+@media only screen and (max-width: 991px) {
+    .heading-cent {
+      text-align: center;
+   }
+}
+
 @media only screen and (max-width: 780px) {
     .about-img {
         height: 82vw;
@@ -612,6 +619,7 @@ b {
     .footer-links {
         padding-top: 20px;
     }
+
 }
 
 @media only screen and (max-width: 480px) {
