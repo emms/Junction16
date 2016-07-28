@@ -5,7 +5,7 @@ html {
 
 body {
     background-color: black;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
     margin-bottom: 240px;
     position: relative;
@@ -35,7 +35,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 50px;
     line-height: 1.2;
     font-weight: bold;
@@ -234,7 +234,7 @@ b {
 .frontpage-txt {
     font-family: Hack-Regular;
     letter-spacing: 5px;
-    color: #dc5a26;
+    color: #fff;
     font-size: 1.5em;
     margin-bottom: 5vh;
 }
@@ -280,7 +280,7 @@ b {
 }
 
 .main-header {
-    font-family: Iceland-Regular;
+    font-family: 'Source Sans Pro';
 }
 
 .frontpage-btn {
