@@ -6,51 +6,51 @@
 }
 
 .img-1 {
-    background-image: url('../../img/48hours.jpg');
+    background-image: url('../../img/tracks/48hours.jpg');
 }
 
 .vr-img {
-    background-image: url('../../img/vr.jpg');
+    background-image: url('../../img/tracks/vr.jpg');
 }
 
 .cybersecurity-img {
-    background-image: url('../../img/cybersecurity.jpg');
+    background-image: url('../../img/tracks/cybersecurity.jpg');
 }
 
 .iot-img {
-    background-image: url('../../img/IOT.jpg');
+    background-image: url('../../img/tracks/IOT.jpg');
 }
 
 .fintech-img {
-    background-image: url('../../img/fintech.jpg');
+    background-image: url('../../img/tracks/fintech.jpg');
 }
 
 .futuremobility-img {
-    background-image: url('../../img/futuremobility.jpg');
+    background-image: url('../../img/tracks/futuremobility.jpg');
 }
 
 .buildings-img {
-    background-image: url('../../img/intelligentbuildings.jpg');
+    background-image: url('../../img/tracks/intelligentbuildings.jpg');
 }
 
 .healthtech-img {
-    background-image: url('../../img/healthtech.jpg');
+    background-image: url('../../img/tracks/healthtech.jpg');
 }
 
 .gaming-img {
-    background-image: url('../../img/gaming.jpg');
+    background-image: url('../../img/tracks/gaming.jpg');
 }
 
 .adtech-img {
-    background-image: url('../../img/mainostech.jpg');
+    background-image: url('../../img/tracks/mainostech.jpg');
 }
 
 .ecommerce-img {
-    background-image: url('../../img/ecommerce.jpg');
+    background-image: url('../../img/tracks/ecommerce.jpg');
 }
 
 .dde-img {
-    background-image: url('../../img/dde.jpg');
+    background-image: url('../../img/tracks/dde.jpg');
 }
 
 .partner-logo {
@@ -88,7 +88,7 @@
 }
 
 .mlh {
-	background-image: url('../../logos/mlh.png');
+    background-image: url('../../logos/mlh.png');
 }
 
 @media (max-width: 992px) {
