@@ -101,6 +101,10 @@
     background-image: url('../../logos/mlh.png');
 }
 
+.zalando {
+    background-image: url('../../logos/zalando.png');
+}
+
 @media (max-width: 992px) {
     .partner-logo {
         margin-top: 0 !important;
