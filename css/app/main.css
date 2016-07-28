@@ -763,7 +763,6 @@ input:focus {
 .faq-a {}
 
 .faq-box {
-    border: 2px solid #5bc8d7;
     padding: 20px;
     position: relative;
     margin-top: 20px;
@@ -771,6 +770,14 @@ input:focus {
 
 .faq-box p {
     margin: 0;
+    font-size: 20px;
+
+}
+
+.faq-box h4 {
+    margin: 0;
+    font-size: 21px;
+
 }
 
 .faq-q {
