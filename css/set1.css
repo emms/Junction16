@@ -1,3 +1,6 @@
+
+/* Hover effect for track images */
+
 figure.effect-sadie figcaption::before {
 	position: absolute;
 	top: 0;

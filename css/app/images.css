@@ -78,35 +78,35 @@
 }
 
 .nokia {
-    background-image: url('../../logos/nokia.png');
+    background-image: url('../../img/logos/nokia.png');
 }
 
 .tieto {
-    background-image: url('../../logos/tieto.png');
+    background-image: url('../../img/logos/tieto.png');
 }
 
 .supercell {
-    background-image: url('../../logos/supercell.png');
+    background-image: url('../../img/logos/supercell.png');
 }
 
 .upm {
-    background-image: url('../../logos/upm.png');
+    background-image: url('../../img/logos/upm.png');
 }
 
 .embers {
-    background-image: url('../../logos/embers.png');
+    background-image: url('../../img/logos/embers.png');
 }
 
 .tba {
-    background-image: url('../../logos/tba-3.png');
+    background-image: url('../../img//imglogos/tba-3.png');
 }
 
 .mlh {
-    background-image: url('../../logos/mlh.png');
+    background-image: url('../../img/logos/mlh.png');
 }
 
 .zalando {
-    background-image: url('../../logos/zalando.png');
+    background-image: url('../../img/logos/zalando.png');
 }
 
 @media (max-width: 992px) {
