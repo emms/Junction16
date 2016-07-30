@@ -325,7 +325,7 @@ b {
 }
 
 .lowest-section {
-    padding-bottom: 15%;
+    padding-bottom: 10%;
 }
 
 .highest-section  {
@@ -547,6 +547,11 @@ b {
     .lastyear-btn-container {
         padding: 0 !important;
     }
+
+   .centered-small {
+      text-align: center;
+   }
+
 }
 
 .dark-overlay {
@@ -822,6 +827,7 @@ input:focus {
     width: 300px;
 }
 
+
 .quote-source h4 {
     color:black!important;
 }
@@ -851,6 +857,10 @@ input:focus {
 .first-partner-row,
 .first-xs-partner-row {
     margin-top: 30px;
+}
+
+.xs-partner-row {
+   margin-bottom:10px;
 }
 
 .partner-heading-row {
