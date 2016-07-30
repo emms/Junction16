@@ -60,6 +60,10 @@ p {
     color:#2D2D2D;
 }
 
+.multi-p {
+    padding-bottom: 20px;
+}
+
 a:hover {
     text-decoration: none;
 }
