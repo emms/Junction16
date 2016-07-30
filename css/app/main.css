@@ -124,7 +124,7 @@ b {
     position: fixed;
     width: 100%;
     z-index: 1000;
-    background: white;
+    background: #FCF7FF;
     transition: 0.5s;
     height: 40px;
 }
