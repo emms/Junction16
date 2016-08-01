@@ -459,7 +459,7 @@ b {
         background-color: black;
     }
     .main-logo {
-        width: 80vw;
+        width: 50vw;
     }
     .navbar-brand {
         display: none !important;
@@ -474,6 +474,10 @@ b {
         text-align: right;
         background-color: black;
     }
+
+    .navbar li a {
+      color:white;
+   }
     .navbar li a:hover:before,
     .navbar li a:focus:before {
         border: 0;
@@ -583,13 +587,6 @@ b {
     margin: 0 auto;
 }
 
-.about-btn-left-padding {
-    padding: 0 3% 0 0;
-}
-
-.about-btn-right-padding {
-    padding: 0 0 0 3%;
-}
 
 .button {
     border: 2px solid #5bc8d7;
@@ -919,7 +916,9 @@ input:focus {
 .grid-sizer,
 .grid-item {
    width : calc(25% - 10px);
-   height:220px;
+   /*height:220px;*/
+   height:0;
+   padding-bottom:20%;
    margin-bottom: 10px;
    background-size: cover;
 }
@@ -931,6 +930,8 @@ input:focus {
 @media (max-width: 1000px) {
    .grid-item {
       width : calc(50% - 10px);
+      height: 220px;
+      padding-bottom: 0;
    }
 }
 
