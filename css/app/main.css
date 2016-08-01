@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: #1c1c1c;
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
     margin-bottom: 240px;
@@ -58,6 +58,10 @@ p {
 
 .text-whitebg {
     color:#2D2D2D;
+}
+
+.multi-p {
+    padding-bottom: 20px;
 }
 
 a:hover {
@@ -169,7 +173,7 @@ b {
 }
 
 .footer p {
-    color: #777;
+    color: #2D2D2D;
 }
 
 .footer-contact {
