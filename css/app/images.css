@@ -5,53 +5,67 @@
     height: 100%;
 }
 
+.img-some {
+   background-image: url('../../img/junctionsome.jpg');
+}
+
 .img-1 {
     background-image: url('../../img/48hours.jpg');
 }
 
+
+
+/* Tracks */
+
+
 .vr-img {
-    background-image: url('../../img/vr.jpg');
+    background-image: url('../../img/tracks/vr.jpg');
 }
 
 .cybersecurity-img {
-    background-image: url('../../img/cybersecurity.jpg');
+    background-image: url('../../img/tracks/cybersecurity.jpg');
 }
 
 .iot-img {
-    background-image: url('../../img/IOT.jpg');
+    background-image: url('../../img/tracks/IOT.jpg');
 }
 
 .fintech-img {
-    background-image: url('../../img/fintech.jpg');
+    background-image: url('../../img/tracks/fintech.jpg');
 }
 
 .futuremobility-img {
-    background-image: url('../../img/futuremobility.jpg');
+    background-image: url('../../img/tracks/futuremobility.jpg');
 }
 
 .buildings-img {
-    background-image: url('../../img/intelligentbuildings.jpg');
+    background-image: url('../../img/tracks/intelligentbuildings.jpg');
 }
 
 .healthtech-img {
-    background-image: url('../../img/healthtech.jpg');
+    background-image: url('../../img/tracks/healthtech.jpg');
 }
 
 .gaming-img {
-    background-image: url('../../img/gaming.jpg');
+    background-image: url('../../img/tracks/gaming.jpg');
 }
 
 .adtech-img {
-    background-image: url('../../img/mainostech.jpg');
+    background-image: url('../../img/tracks/mainostech.jpg');
 }
 
 .ecommerce-img {
-    background-image: url('../../img/ecommerce.jpg');
+    background-image: url('../../img/tracks/ecommerce.jpg');
 }
 
 .dde-img {
-    background-image: url('../../img/dde.jpg');
+    background-image: url('../../img/tracks/dde.jpg');
 }
+
+
+
+/* Partners */
+
 
 .partner-logo {
     overflow: hidden;
@@ -64,31 +78,35 @@
 }
 
 .nokia {
-    background-image: url('../../logos/nokia.png');
+    background-image: url('../../img/logos/nokia.png');
 }
 
 .tieto {
-    background-image: url('../../logos/tieto.png');
+    background-image: url('../../img/logos/tieto.png');
 }
 
 .supercell {
-    background-image: url('../../logos/supercell.png');
+    background-image: url('../../img/logos/supercell.png');
 }
 
 .upm {
-    background-image: url('../../logos/upm.png');
+    background-image: url('../../img/logos/upm.png');
 }
 
 .embers {
-    background-image: url('../../logos/embers.png');
+    background-image: url('../../img/logos/embers.png');
 }
 
 .tba {
-    background-image: url('../../logos/tba-3.png');
+    background-image: url('../../img/logos/tba-3.png');
 }
 
 .mlh {
-	background-image: url('../../logos/mlh.png');
+    background-image: url('../../img/logos/mlh.png');
+}
+
+.zalando {
+    background-image: url('../../img/logos/zalando.png');
 }
 
 @media (max-width: 992px) {

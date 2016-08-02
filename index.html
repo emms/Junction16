@@ -17,19 +17,19 @@
     <title>Junction 2016</title>
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/favicon//apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="//faviconapple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/faviconapple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -121,7 +121,7 @@
                         </div>
                         <div class="collapse navbar-collapse" id="nav-collapse">
                             <ul class="nav navbar-nav">
-                                <li><a href="#">ABOUT</a></li>
+                                <li><a href="about">ABOUT</a></li>
                                 <li><a href="#">TRACKS</a></li>
                                 <li><a href="#">PARTNERS</a></li>
                                 <li><a href="#">FAQ</a>
@@ -137,7 +137,9 @@
             <div class="dark-overlay"></div>
             <div id="video-wrap">
                 <video id="bg-video" preload="metadata" autoplay loop muted>
-                    <source src="video/bg_footage.mp4" type="video/mp4">
+                    <source src="video/bg_footage.webm" type="video/webm">
+           	        <source src="video/bg_footage.mp4" type="video/mp4">
+
                 </video>
             </div>
             <div class="frontpage-container">
@@ -169,201 +171,219 @@
         <div class="overlay-video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/osZit7cuaMI" frameborder="0" allowfullscreen></iframe>
         </div>
-        <div class="col-xs-12 section highest-section">
-            <!-- <div class="col-sm-10 col-sm-offset-1">
-                <div class="col-md-4">
-                   <img height="150px" src="img/latesttech.svg" />
-                </div>
-                <div class="col-md-4">
-                   <img height="150px" src="img/notjusthack.svg" />
-                </div>
-                <div class="col-md-4">
-                   <img height="150px" src="img/everyone.svg" />
-                </div>
-            </div> -->
+
+        <div id="about" class="col-xs-12 section-less-padding highest-section">
             <div class="col-sm-10 col-sm-offset-1">
-                <div class="divider"></div>
-                <div class="col-md-4">
-                    <h3>THE LASTEST IN TECH</h3>
-                    <p>From drones to VR headsets to smartwatches, we will have it. If there is a certain hardware you would like to see at the event, drop us a line.</p>
-                </div>
-                <div class="col-md-4">
-                    <h3>NOT JUST A HACKATHON</h3>
-                    <p>Junction is not your standard cafeteria hackathon. Junction is meant to be seen, to be heard, to be felt and most importantly to be experienced.</p>
-                </div>
-                <div class="col-md-4">
-                    <h3 class="hidden-xs hidden-sm">FOR EVERYONE<br></h3>
-                    <h3 class="visible-xs visible-sm">FOR EVERYONE</h3>
-                    <p>No matter whether you’re just a beginner or a pro, if you have the passion and a will to create something, we want you to be part of Junction!</p>
-                </div </div>
+               <!-- <h2 class="text-center"><span style="font-weight:300; font-size:2em;color:black;">JUNCTION</span> <br><span style="font-weight:700; color:black;">WHAT IS IT ABOUT?</span></h2> -->
+               <h2 class="text-center text-whitebg" style="padding-bottom: 40px;"><span style="font-weight:700;">WHAT IS </span><span style="font-weight:300;">JUNCTION?</span></h2>
             </div>
-        </div>
-        <!-- <div class="hidden-xs hidden-sm col-md-5 col-md-offset-1 section-img content-img img-1">
+            <div class="hidden-xs hidden-sm col-md-5 col-md-offset-1 section-img content-img img-1">
             </div>
             <div class="col-sm-10 col-sm-offset-1 col-md-offset-0 col-md-5" style="padding-left:23px;">
-                <div class="text-content">
-                    <div class="white-thick-border">
-                        <div class="row margin0">
-                            <div class="heading-line"></div>
-                        </div>
-                        <div class="row margin0">
-                            <h2 class="section-heading">ABOUT</h2>
-                        </div>
-                        <div class="row margin0">
-                            <p class="section-txt">
-                                Held annually in the cold and slushy Helsinki of late November, Junction is a converging point for developers, designers, and entrepreneurs alike to let go of their inhibitions and create cool inspiring projects. At Junction no idea is too crazy, with 48 hours to spare and the latest hardware and API’s at your fingertips it’s the best place to design and develop your wildest ideas and meet fun like-minded hackers.
-                                <br>
-                                <br> Junction is Europe’s largest hackathon and embodies the blooming startup ecosystem of the Nordics. We don’t believe that’s by chance. What happens when you combine ambitious hackers from around the world with innovative industry partners and gather them in a relaxed open-minded environment? The innovations of tomorrow are born.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 about-btn-left-padding">
-                        <div class="button about-btn prereg-btn">
-                            <a href="typeform.html">PRE-REGISTER</a>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 about-btn-right-padding">
-                        <div class="button about-btn">
-                            <a href="#lastyear">LAST YEAR</a>
-                        </div>
-                    </div> -->
-                    <!--<div class="col-sm-2 hidden-xs "></div>
-                    <div class="col-xs-12 col-sm-8 lastyear-btn-container">
-                        <div class="button about-btn">
-                            <a href="#lastyear">LAST YEAR</a>
-                        </div>
-                    </div>-->
-
+               <div class="text-content">
+                  <!-- <div class="col-sm-2 col-md-2"><img src="img/latesttech.svg" alt=""></div> -->
+                  <div class="col-sm-12 heading-cent">
+                     <h3 class="text-whitebg">CREATIVE HACKATHON</h3>
+                     <p class="section-txt text-whitebg" >
+                        Junction is a convergence point for 1.2k developers, designers, and entrepreneurs from 30+ countries. It's a place where no idea is too crazy, and everyone is welcomed.
+                     </p>
+                  </div>
+                     <!-- <div class="col-sm-2 col-md-2"><img src="img/everyone.svg" alt=""></div> -->
+                  <div class="col-sm-12 heading-cent">
+                     <h3 class="text-whitebg">AMAZING TECH</h3>
+                     <p class="section-txt text-whitebg">
+                        You have 48 hours to burn and the latest and greatest hardware and API’s at your fingertips. From drones to thermal cameras, VR Headsets to IOT components, we aim to to bring it all to Junction. Need something specific? Contact us and we'll see what we can do.
+                     </p>
+                  </div>
+                  <!-- <div class="col-sm-2 col-md-2"><img src="img/notjusthack.svg" alt=""></div> -->
+                  <div class="col-sm-12 heading-cent">
+                     <h3 class="text-whitebg">BEGINNER FRIENDLY</h3>
+                     <p class="section-txt text-whitebg">
+                        Whether you’re a beginner or a pro, if you have the passion and a will to create something, we want you at Junction. There's workshops, talks and tutorials suited for multiple different skill levels.
+                     </p>
+                  </div>
+                 <div class="col-xs-12 col-sm-6 about-btn-left-padding">
+                     <div class="button about-btn prereg-btn">
+                         <a href="typeformOld.html">SUBSCRIBE</a>
+                     </div>
+                 </div>
+                 <div class="col-xs-12 col-sm-6 about-btn-right-padding">
+                     <div class="button about-btn">
+                         <a href="#lastyear">LAST YEAR</a>
+                     </div>
+                 </div>
+               </div>
             </div>
         </div>
 
         <div id="tracks" class="col-xs-12 section-less-padding">
-            <div class="col-sm-10 col-sm-offset-1 track-section">
                <div class="col-sm-10 col-sm-offset-1">
-                  <h2 class="text-center"><span style="font-weight:300; font-size:2em;">TEN TRACKS</span> <br><span style="font-weight:700;">HUNDREDS OF HACKERS</span></h2>
+                  <h2 class="text-center"><span style="font-weight:700;">TEN </span><span style="font-weight:300;">TRACKS</span></h2>
+                  <h3 class="cyan-txt text-center" style="font-weight:300; padding-bottom: 40px;">Hundreds of hackers - Endless possibilities</h3>
                </div>
-                <div class="row margin0 track-row-padding" style="padding-bottom:5px;">
-                    <div class="grey-bg track-box box-1-height box-2-width">
-                             <a href="#">
-                             <figure class="effect-sadie">
-                             <img src="img/gaming.png" />
-                              <!-- <div class="content-img gaming-img"> -->
-                             <figcaption>
-                                <div class="text-center">
-                                   <h3>GAMING</h3>
-                                   <p>Create awesome games</p>
-                                </div>
-                             </figcaption>
-                          </figure>
-                       View more</a>
-                    </div>
-                        <!-- <div class="content-img gaming-img"></div> -->
-                        <!-- <span class="track-header track-header-smaller"><b>GAMING</b></span> -->
-                    <div class="track-box box-1-height box-2-width" >
-                       <a href="#">
-                       <figure class="effect-sadie">
-                       <img src="img/vr.jpg" />
-                        <!-- <div class="content-img gaming-img"> -->
-                       <figcaption>
-                          <div class="text-center">
-                             <h3>VR</h3>
-                             <p>Take VR to the next level</p>
-                          </div>
-                       </figcaption>
-                    </figure>
-                 View more</a>
-                        <!-- <div class="content-img vr-img"></div> -->
-                        <!-- <span class="track-header track-header-smaller"><b>VIRTUAL REALITY</b></span> -->
-                    </div>
-                </div>
-                <div class="row margin0 track-row-padding">
-                    <div class="grey-bg track-box box-1-height box-1-width">
-                        <div class="content-img iot-img"></div>
-                        <span class="track-header track-header-smaller"><b>IOT</b></span>
-                    </div>
-                    <div class="grey-bg track-box box-1-height box-1-width">
-                        <div class="content-img fintech-img"></div>
-                        <span class="track-header track-header-smaller"><b>FINTECH</b></span>
-                    </div>
-                    <div class="grey-bg track-box box-1-height box-2-width">
-                        <div class="content-img dde-img"></div>
-                        <span class="track-header track-header-smaller"><b>DATA DRIVEN ECONOMY</b></span>
-                    </div>
-                </div>
-                <div class="row margin0 track-row-padding">
-                    <div class="grey-bg track-box box-1-height box-1-width">
-                        <div class="content-img buildings-img"></div>
-                        <span class="track-header track-header-smaller"><b>INTELLIGENT<br>BUILDINGS</b></span>
-                    </div>
-                    <div class="grey-bg track-box box-1-height box-2-width">
-                        <div class="content-img futuremobility-img"></div>
-                        <span class="track-header track-header-smaller"><b>FUTURE MOBILITY</b></span>
-                    </div>
-                    <div class="grey-bg track-box box-1-height box-1-width">
-                        <div class="content-img healthtech-img"></div>
-                        <span class="track-header track-header-smaller"><b>HEALTHTECH</b></span>
-                    </div>
-                </div>
-                <div class="row margin0 track-row-padding">
-                    <div class="grey-bg track-box box-1-height box-2-width">
-                        <div class="content-img adtech-img"></div>
-                        <span class="track-header track-header-smaller"><b>ADTECH</b></span>
-                    </div>
-                    <div class="grey-bg track-box box-1-height box-2-width">
-                        <div class="content-img ecommerce-img"></div>
-                        <span class="track-header track-header-smaller"><b>E-COMMERCE</b></span>
-                    </div>
-                </div>
+            <div class="col-sm-10 col-sm-offset-1">
+                <!-- <div class="row margin0 track-row-padding" style="padding-bottom:5px;"> -->
+               <div class="grid">
+                  <div class="grid-sizer"></div>
+                  <div class="grid-item grid-item--width2 box-1-height gaming-img">
+                     <a href="#">
+                        <figure class="effect-sadie">
+                           <figcaption>
+                              <div class="text-center">
+                                 <h3>GAMING</h3>
+                                 <p>Create awesome games</p>
+                              </div>
+                           </figcaption>
+                        </figure>
+                     </a>
+                  </div>
+                  <div class="grid-item grid-item--width2 box-1-height vr-img">
+                     <a href="#">
+                        <figure class="effect-sadie">
+                           <figcaption>
+                              <div class="text-center">
+                                 <h3>VIRTUAL REALITY</h3>
+                                 <p>Take VR to the next level</p>
+                              </div>
+                           </figcaption>
+                        </figure>
+                     </a>
+                  </div>
+                  <div class="grid-item box-1-height iot-img">
+                     <a href="#">
+                        <figure class="effect-sadie">
+                           <figcaption>
+                              <div class="text-center">
+                                 <h3>IOT</h3>
+                                 <p>Internet of things</p>
+                              </div>
+                           </figcaption>
+                        </figure>
+                     </a>
+                  </div>
+                  <div class="grid-item grid-item--width2 box-1-height dde-img">
+                     <a href="#">
+                        <figure class="effect-sadie">
+                           <figcaption>
+                              <div class="text-center">
+                                 <h3>DATA DRIVEN ECONOMY</h3>
+                                 <p>Data driven economy</p>
+                              </div>
+                           </figcaption>
+                        </figure>
+                     </a>
+                  </div>
+                  <div class="grid-item box-1-height fintech-img">
+                     <a href="#">
+                        <figure class="effect-sadie">
+                           <figcaption>
+                              <div class="text-center">
+                                 <h3>FINTECH</h3>
+                                 <p>The next generation of banking</p>
+                              </div>
+                           </figcaption>
+                        </figure>
+                     </a>
+                  </div>
+                  <div class="grid-item box-1-height adtech-img">
+                     <a href="#">
+                        <figure class="effect-sadie">
+                           <figcaption>
+                              <div class="text-center">
+                                 <h3>ADTECH</h3>
+                                 <p>Next generation spam</p>
+                              </div>
+                           </figcaption>
+                        </figure>
+                     </a>
+                  </div>
+                  <div class="grid-item box-1-height healthtech-img">
+                     <a href="#">
+                        <figure class="effect-sadie">
+                           <figcaption>
+                              <div class="text-center">
+                                 <h3>HEALTHTECH</h3>
+                                 <p>Live forever!</p>
+                              </div>
+                           </figcaption>
+                        </figure>
+                     </a>
+                  </div>
+                  <div class="grid-item grid-item--width2 box-1-height buildings-img">
+                     <a href="#">
+                        <figure class="effect-sadie">
+                           <figcaption>
+                              <div class="text-center">
+                                 <h3>INTELLIGENT BUILDINGS</h3>
+                                 <p>Intelligent buildings</p>
+                              </div>
+                           </figcaption>
+                        </figure>
+                     </a>
+                  </div>
+                  <div class="grid-item grid-item--width2 box-1-height ecommerce-img">
+                     <a href="#">
+                        <figure class="effect-sadie">
+                           <figcaption>
+                              <div class="text-center">
+                                 <h3>ECOMMERCE</h3>
+                                 <p>Sell things in new ways</p>
+                              </div>
+                           </figcaption>
+                        </figure>
+                     </a>
+                  </div>
+                  <div class="grid-item grid-item--width2 box-1-height futuremobility-img">
+                     <a href="#">
+                        <figure class="effect-sadie">
+                           <figcaption>
+                              <div class="text-center">
+                                 <h3>FUTURE MOBILITY</h3>
+                                 <p>Self driving shit</p>
+                              </div>
+                           </figcaption>
+                        </figure>
+                     </a>
+                  </div>
+               </div>
             </div>
         </div>
 
-        <div class="section-medium-padding col-xs-12 quote">
+        <div id="quote" class="section-medium-padding col-xs-12 quote">
             <div class="col-sm-10 col-sm-offset-1">
-                <div class="col-sm-8 padding0">
-                    <div class="quote-line"></div>
+                <div class="col-sm-7 padding0">
+                    <!-- <div class="quote-line"></div> -->
                     <div class="paddingtop30">
                       <span class="quotationmark">&ldquo;</span>
-                        <a onclick="window.open ('http://www.huffingtonpost.com/erica-swallow/in-finland_b_8570578.html', ''); return false" href="javascript:void(0);">
+                        <a onclick="window.open ('https://medium.com/hack-junction/8-bit-graphics-and-boxing-rings-6ba2ad61f2c3#.8dajophrk', ''); return false" href="javascript:void(0);">
 
                             <h3 class="quote-txt">
-                        Deep collaborations between young entrepreneurs with fresh ideas and executives from large industry players&nbsp;</h3>
+                        We love building stuff and wanted to help others to learn to code and build stuff too&nbsp;</h3>
                         </a><span class="quotationmark">&rdquo;</span>
                     </div>
                     <div class="quote-source">
-                        <h4><span class="cyan-txt">Erica Swallow</span> Huffington Post</h4>
+                        <h4><span class="cyan-txt">Slush Smackdown</span><br>Junction 2015 Winner</h4>
                     </div>
+                </div>
+                <div class="col-md-offset-1 col-md-2 hidden-sm hidden-xs">
+                   <img src="img/boxguy.gif" height="180" alt=""/>
                 </div>
             </div>
         </div>
 
         <div id="partners" class="col-xs-12 section partners">
             <div class="col-sm-10 col-sm-offset-1">
-                <div class="row partner-heading-row">
-                    <div class="col-md-6 hidden-xs hidden-sm">
-                        <div class="partners-subheading">
-                            <div class="quote-line"></div>
-                            <h2>Build With Us</h2>
-                        </div>
+               <div class="col-sm-10 col-sm-offset-1">
+                  <h2 class="text-center"><span style="font-weight:700;">WITH US </span><span style="font-weight:300;">THIS YEAR</span></h2>
+               </div>
+                <!-- <div class="row partner-heading-row"> -->
+                <div class="col-sm-8 col-sm-offset-2">
                         <div class="partners-txt">
-                            <p>Junction 2016 is gathering an array of national and global partners to provide extensive hardware and over 36 different API's to hack. Additionally these partners will provide teams with mentoring and coaching throughout the 48 hour event. Here are the Junction 2016 partners and more will be added soon.</p>
+                            <p>Junction 2016 is gathering an array of national and global partners to provide extensive hardware and over 36 different API's to hack. Additionally these partners will provide teams with mentoring and coaching throughout the 48 hour event.</p>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="white-thick-border">
-                            <div class="row margin0">
-                                <div class="heading-line"></div>
-                            </div>
-                            <div class="row margin0">
-                                <h2 class="section-heading">PARTNERS</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="partners-txt-sm visible-sm visible-xs">
-                    <h4>Check out some of our partners for 2016!</h4>
                 </div>
                 <div class="col-sm-12 col-md-10 col-md-offset-1">
-                    <div class="row hidden-xs first-partner-row">
+                    <div class="row first-partner-row hidden-xs">
                         <div class="col-sm-3">
                             <div class="partner-logo supercell" style="margin-top:55px;"></div>
                         </div>
@@ -385,57 +405,44 @@
                             <div class="partner-logo mlh"></div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="partner-logo tba"></div>
+                            <div class="partner-logo zalando"></div>
                         </div>
                         <div class="col-sm-3">
                             <div class="partner-logo tba"></div>
                         </div>
                     </div>
-                    <!-- <div class="row hidden-xs">
-                        <div class="col-sm-3">
-                            <div class="partner-logo tba"></div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="partner-logo tba"></div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="partner-logo tba"></div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="partner-logo tba"></div>
-                        </div>
-                    </div> -->
                 </div>
-                <div class="row visible-xs first-xs-partner-row">
+
+                <div class="row first-xs-partner-row xs-partner-row visible-xs">
+                    <div class="col-xs-6">
+                        <div class="partner-logo supercell"></div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="partner-logo nokia"></div>
+                    </div>
+                </div>
+                <div class="row visible-xs xs-partner-row">
+                    <div class="col-xs-6">
+                        <div class="partner-logo tieto"></div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="partner-logo upm"></div>
+                    </div>
+                </div>
+                <div class="row visible-xs xs-partner-row">
+                    <div class="col-xs-6">
+                        <div class="partner-logo embers"></div>
+                    </div>
                     <div class="col-xs-6">
                         <div class="partner-logo mlh"></div>
                     </div>
-                    <div class="col-xs-6">
-                        <div class="partner-logo ibm"></div>
-                    </div>
                 </div>
-                <div class="row visible-xs">
+                <div class="row visible-xs xs-partner-row">
                     <div class="col-xs-6">
-                        <div class="partner-logo uber"></div>
+                        <div class="partner-logo zalando"></div>
                     </div>
                     <div class="col-xs-6">
-                        <div class="partner-logo futurice"></div>
-                    </div>
-                </div>
-                <div class="row visible-xs">
-                    <div class="col-xs-6">
-                        <div class="partner-logo reaktor"></div>
-                    </div>
-                    <div class="col-xs-6">
-                        <div class="partner-logo unity"></div>
-                    </div>
-                </div>
-                <div class="row visible-xs">
-                    <div class="col-xs-6">
-                        <div class="partner-logo nvidia"></div>
-                    </div>
-                    <div class="col-xs-6">
-                        <div class="partner-logo supercell"></div>
+                        <div class="partner-logo tba"></div>
                     </div>
                 </div>
 
@@ -445,188 +452,79 @@
             </div>
         </div>
 
-        </div>
-<!-- CTA -->
-  <div class="col-xs-12 CTA">
-      <div class="text-center">
-        <h3> Still not sure? </h3>
-        <p> 98% of our participants last year gave us a 10, find out why!</p>
-        </div>
-      <div class="col-xs-12 col-sm-3 about-btn-right-padding">
-      </div>
-        <div class="col-xs-12 col-sm-3 about-btn-left-padding">
-            <div class="button about-btn prereg-btn">
-                <a href="typeform.html">REGISTER</a>
+
+
+        <div id="about" class="col-xs-12 section-less-padding highest-section">
+            <div class="col-sm-10 col-sm-offset-1">
+               <!-- <h2 class="text-center"><span style="font-weight:300; font-size:2em;color:black;">JUNCTION</span> <br><span style="font-weight:700; color:black;">WHAT IS IT ABOUT?</span></h2> -->
+               <h2 class="text-center text-whitebg" style="padding-bottom: 40px;"><span style="font-weight:700; color:black; ">FOLLOW US </span><span style="font-weight:300; color:black;">AROUND THE WEB</span></h2>
+            </div>
+            <!-- <div class="hidden-xs hidden-sm col-md-5 col-md-offset-1  section-img content-img img-some"> -->
+            <div class="hidden-xs hidden-sm col-md-5 col-md-offset-1">
+               <img src="img/junctionsome.jpg" width="100%" alt="">
+            </div>
+            <div class="col-sm-10 col-sm-offset-1 col-md-offset-0 col-md-5" style="padding-left:23px;">
+               <div class="text-content">
+                  <!-- <div class="col-sm-2 col-md-2"><img src="img/latesttech.svg" alt=""></div> -->
+                  <div class="col-sm-12 heading-cent">
+                     <h3 class="text-whitebg">STAY UPDATED</h3>
+                     <p class="section-txt text-whitebg">
+                        Get the latest information about Junction. Follow our Facebook and Twitter for the latest announcements and reveals concerning partners, hardware and PRE-EVENTS. Also be sure to catch our blog on Medium and read about last years projects!
+                     </p>
+                      <div class="footer-links" style="padding-top:30px;">
+                          <a href="https://www.facebook.com/hackjunction">
+                              <i class="fa fa-facebook-square footericon" aria-hidden="true"></i>
+                          </a>
+                          <a href="https://twitter.com/hackjunction">
+                              <i class="fa fa-twitter-square footericon" aria-hidden="true"></i>
+                          </a>
+                           <a href="https://www.instagram.com/hackjunction">
+                              <i class="fa fa-instagram footericon" aria-hidden="true"></i>
+                          </a>
+                          <a href="https://medium.com/hack-junction">
+                              <i class="fa fa-medium footericon" aria-hidden="true"></i>
+                          </a>
+                      </div>
+                  </div>
+
+                  <!-- <div class="col-sm-2 col-md-2"><img src="img/everyone.svg" alt=""></div> -->
+               </div>
+            </div>
+			<div class="col-sm-10 col-sm-offset-1">
+               <h4 class="text-center text-whitebg" style="margin-top:20px">Check out our <a href="./presskit.html"> presskit </a>
+               </h4>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-3 about-btn-right-padding">
-            <div class="button about-btn">
-                <a href="#lastyear">LAST YEAR</a>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-3 about-btn-right-padding">
-        </div>
-    </div>
 
         <div id="lastyear" class="col-xs-12 section lowest-section">
             <div class="col-sm-10 col-sm-offset-1">
                 <div class="row" style="margin-bottom:70px;">
-                    <div class="col-md-6">
-                        <div class="white-thick-border">
-                            <div class="row margin0">
-                                <div class="heading-line"></div>
-                            </div>
-                            <div class="row margin0">
-                                <h2 class="section-heading">LAST YEAR</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="stats">
-                            <div class="stat-container1">
-                                <h3 class="cyan-txt">559 Developers</h3>
-                            </div>
-                            <div class="stat-container">
-                                <h3 class="cyan-txt">Over 50K€ in prizes</h3>
-                            </div>
-                            <div class="stat-container">
-                                <h3 class="cyan-txt">30+ Countries</h3>
-                            </div>
-                        </div>
-                    </div>
+                      <div class="row margin0">
+               			<h2 class="text-center"><span style="font-weight:700;">RELIVE </span><span style="font-weight:300;">LAST YEAR</span></h2>
+                      </div>
+                   <h3 class="cyan-txt text-center" style="font-weight:300; padding-bottom: 40px;">559 Developers - Over 50K€ in prizes - 30+ Countries</h3>
                 </div>
-                <div class="lastyear-subheading">
-                    <div class="quote-line"></div>
-                    <h2>Junction 2015</h2>
-                </div>
-                <div class="col-md-5" style="padding-left:0;">
-                    <p class="section-txt">
-                        Organized by 100% student run Aalto Entrepreneurship Society, Junction was built to inspire and foster a community of creators and give them a hackathon experience like no other.
-                        <br>
-                        <br> In 2015 Junction gathered 559 hackers from over 30 countries and let them hack on 8 different tracks and 36 different API’s for a total of 26 different prize categories and a €20,000 grand prize.
-                    </p>
-                    <div class="button">
-                        <a onclick="window.open ('http://2015.hackjunction.com', ''); return false" href="javascript:void(0);">CHECK OUT LAST YEAR</a>
-                    </div>
+                <div class="centered-small">
+                   <div class="lastyear-subheading">
+                       <!-- <div class="quote-line"></div> -->
+                       <h2>Junction 2015</h2>
+                   </div>
+                   <div class="col-md-5" style="padding-left:0;">
+                       <p class="section-txt">
+                           Organized by 100% student run Aalto Entrepreneurship Society, Junction was built to inspire and foster a community of creators and give them a hackathon experience like no other.
+                           <br>
+                           <br> In 2015 Junction gathered 559 hackers from over 30 countries and let them hack on 8 different tracks and 36 different API’s for a total of 26 different prize categories and a €20,000 grand prize.
+                       </p>
+                       <div class="button">
+                           <a onclick="window.open ('http://2015.hackjunction.com', ''); return false" href="javascript:void(0);">CHECK OUT LAST YEAR</a>
+                       </div>
+                   </div>
                 </div>
                 <div class="col-md-7 videoWrapper col-sm-12">
                     <iframe width="560" height="349" src="https://www.youtube.com/embed/osZit7cuaMI" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
-        <!--
-        <div id="faq" class="col-xs-12 section">
-            <div class="col-sm-10 col-sm-offset-1">
-                <div class="row">
-                    <div class="col-md-4 faq-sect faq-sect-left">
-                        <div class="white-thick-border">
-                            <div class="row margin0">
-                                <div class="heading-line"></div>
-                            </div>
-                            <div class="row margin0">
-                                <h2 class="section-heading hidden-xs">FREQUENTLY<br>ASKED QUESTIONS</h2>
-                                <h2 class="section-heading visible-xs">FAQ</h2>
-                            </div>
-                        </div>
-                        <div class="faq-box">
-                            <div class="faq-q">
-                                <p><b>When does the application period start?</b></p>
-                            </div>
-                            <div class="faq-a">
-                                <p>Applications open in the beginning of August. Pre-register now however to receive early access to our applications in the fall. Early access applications have a higher chance of being accepted to Junction.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="faq-box">
-                            <div class="faq-q">
-                                <p><b>Will there be travel reimbursements available?</b></p>
-                            </div>
-                            <div class="faq-a">
-                                <p>Yes. Travel reimbursements will be available. Stay tuned for more information.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 faq-sect faq-sect-right">
-                        <div class="faq-box upper-faq-box">
-                            <div class="faq-q">
-                                <p><b>What size can a team be?</b></p>
-                            </div>
-                            <div class="faq-a">
-                                <p>Teams can be up to 5 people. If you want to hack alone, that’s totally fine. If you are still looking for a team, don't worry, we will have team building and pitching sessions at the event. You can apply at any time and join any team at any time. The team question in the application is only to make sure the entire team makes it to the event.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="faq-box">
-                            <div class="faq-q">
-                                <p><b>Does it cost to attend?</b></p>
-                            </div>
-                            <div class="faq-a">
-                                <p>Of course not. It's completely FREE to attend!</p>
-                            </div>
-                        </div>
-                        <div class="faq-box">
-                            <div class="faq-q">
-                                <p><b>What about accommodation?</b></p>
-                            </div>
-                            <div class="faq-a">
-                                <p>We will have free accommodation for participants coming from out of town.</p>
-                            </div>
-                        </div>
-                        <div class="faq-box">
-                            <div class="faq-q">
-                                <p><b>What can I hack on?</b></p>
-                            </div>
-                            <div class="faq-a">
-                                <p>We'll have Oculus Rifts, HTC Vives, Apple Watches, 3d printers, Microsoft Hololens, Estimote Beacons to name a few :)</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 faq-sect faq-sect-right">
-                        <div class="faq-box upper-faq-box">
-                            <div class="faq-q">
-                                <p><b>What size can a team be?</b></p>
-                            </div>
-                            <div class="faq-a">
-                                <p>Teams can be up to 5 people. If you want to hack alone, that’s totally fine. If you are still looking for a team, don't worry, we will have team building and pitching sessions at the event. You can apply at any time and join any team at any time. The team question in the application is only to make sure the entire team makes it to the event.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="faq-box">
-                            <div class="faq-q">
-                                <p><b>Does it cost to attend?</b></p>
-                            </div>
-                            <div class="faq-a">
-                                <p>Of course not. It's completely FREE to attend!</p>
-                            </div>
-                        </div>
-                        <div class="faq-box">
-                            <div class="faq-q">
-                                <p><b>What about accommodation?</b></p>
-                            </div>
-                            <div class="faq-a">
-                                <p>We will have free accommodation for participants coming from out of town.</p>
-                            </div>
-                        </div>
-                        <div class="faq-box">
-                            <div class="faq-q">
-                                <p><b>What can I hack on?</b></p>
-                            </div>
-                            <div class="faq-a">
-                                <p>We'll have Oculus Rifts, HTC Vives, Apple Watches, 3d printers, Microsoft Hololens, Estimote Beacons to name a few :)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row faq-more-button-container">
-                    <div class="button">
-                        <a href="faq.html">MORE</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    -->
 
 
     </main>
@@ -656,12 +554,19 @@
                 <p class="footer-contact">Contact: hackjunction@aaltoes.com</p>
             </div>
             <img src="img/aaltoes_grey.png" class="aaltoes-logo">
-        </div>
+
+        	</div>
+
+        	    <div class="col-sm-10 col-sm-offset-1">
+               	<h4 class="text-center text-whitebg" style="margin-top:20px">Check out our <a href="./presskit.html"> presskit </a>
+               	</h4>
+            	</div>
     </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/lib/masonry.pkgd.min.js"></script>
     <script type="text/javascript" src="js/lib/skrollr.min.js"></script>
     <script type="text/javascript" src="js/lib/backgroundVideo.js"></script>
     <script type="text/javascript" src="js/app/videoResize.js"></script>
@@ -730,6 +635,14 @@
             $('.overlay-video').fadeOut();
         });
     });
+
+   $('.grid').masonry({
+  // options
+  itemSelector: '.grid-item',
+  columnWidth: '.grid-sizer',
+  gutter: 10
+   });
+
     </script>
 </body>
 

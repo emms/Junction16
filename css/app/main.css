@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: #1c1c1c;
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
     margin-bottom: 240px;
@@ -43,6 +43,7 @@ h2 {
 
 h3 {
     font-size: 30px;
+    font-weight: 700;
 }
 
 h2,
@@ -53,6 +54,14 @@ h4 {
 
 p {
     color: #BBB;
+}
+
+.text-whitebg {
+    color:#2D2D2D;
+}
+
+.multi-p {
+    padding-bottom: 20px;
 }
 
 a:hover {
@@ -101,10 +110,18 @@ b {
     transition: 0.5s;
 }
 
+.navbar.navtop li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    padding: 15px 7px;
+}
+
 .navbar.navtop li a:hover,
 .navbar.navtop li a:focus {
-    color: #FFF;
+    color: #555;
 }
+
 
 .navbar {
     border: none;
@@ -112,7 +129,7 @@ b {
     position: fixed;
     width: 100%;
     z-index: 1000;
-    background: white;
+    background: #FCF7FF;
     transition: 0.5s;
     height: 40px;
 }
@@ -120,7 +137,7 @@ b {
 .navbar li a:hover,
 .navbar li a:focus {
     background-color: transparent;
-    color: black;
+    color: #777;
 }
 
 .navbar li {
@@ -130,7 +147,7 @@ b {
 
 .navbar li a {
     text-decoration: none;
-    color: white;
+    color: black;
     transition: 0.5s;
     padding: 15px 7px;
 }
@@ -148,7 +165,7 @@ b {
 }
 
 .footer {
-    height: 240px;
+    height: 280px;
     background-color: #FCF7FF;
     width: 100%;
     position: absolute;
@@ -156,7 +173,7 @@ b {
 }
 
 .footer p {
-    color: #777;
+    color: #2D2D2D;
 }
 
 .footer-contact {
@@ -232,10 +249,10 @@ b {
 }
 
 .frontpage-txt {
-    font-family: Hack-Regular;
+    font-weight: 300;
     letter-spacing: 5px;
     color: #fff;
-    font-size: 1.5em;
+    font-size: 2em;
     margin-bottom: 5vh;
 }
 
@@ -318,16 +335,13 @@ b {
 }
 
 .lowest-section {
-    padding-bottom: 15%;
+    padding-bottom: 10%;
 }
 
 .highest-section  {
     background-color: #FCF7FF;
 }
 
-.highest-section h3 {
-  color: black!important;
-  }
 .section-identifier {
     float: left;
     position: absolute;
@@ -347,7 +361,7 @@ b {
     padding: 10px 0;
     letter-spacing: 50;
     font-weight: bold;
-    text-align: right;
+    text-align: center;
 }
 
 .heading-line {
@@ -449,7 +463,7 @@ b {
         background-color: black;
     }
     .main-logo {
-        width: 80vw;
+        width: 50vw;
     }
     .navbar-brand {
         display: none !important;
@@ -464,6 +478,10 @@ b {
         text-align: right;
         background-color: black;
     }
+
+    .navbar li a {
+      color:white;
+   }
     .navbar li a:hover:before,
     .navbar li a:focus:before {
         border: 0;
@@ -540,6 +558,11 @@ b {
     .lastyear-btn-container {
         padding: 0 !important;
     }
+
+   .centered-small {
+      text-align: center;
+   }
+
 }
 
 .dark-overlay {
@@ -568,13 +591,6 @@ b {
     margin: 0 auto;
 }
 
-.about-btn-left-padding {
-    padding: 0 3% 0 0;
-}
-
-.about-btn-right-padding {
-    padding: 0 0 0 3%;
-}
 
 .button {
     border: 2px solid #5bc8d7;
@@ -601,6 +617,13 @@ b {
     /*position: relative;*/
 }
 
+
+@media only screen and (max-width: 991px) {
+    .heading-cent {
+      text-align: center;
+   }
+}
+
 @media only screen and (max-width: 780px) {
     .about-img {
         height: 82vw;
@@ -612,6 +635,7 @@ b {
     .footer-links {
         padding-top: 20px;
     }
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -688,7 +712,7 @@ input:focus {
 }
 
 .track-header {
-    position: absolute;
+    /*position: absolute;*/
     bottom: 20px;
     right: 20px;
     color: #FFF;
@@ -748,7 +772,6 @@ input:focus {
 .faq-a {}
 
 .faq-box {
-    border: 2px solid #5bc8d7;
     padding: 20px;
     position: relative;
     margin-top: 20px;
@@ -756,6 +779,14 @@ input:focus {
 
 .faq-box p {
     margin: 0;
+    font-size: 20px;
+
+}
+
+.faq-box h4 {
+    margin: 0;
+    font-size: 21px;
+
 }
 
 .faq-q {
@@ -807,6 +838,7 @@ input:focus {
     width: 300px;
 }
 
+
 .quote-source h4 {
     color:black!important;
 }
@@ -836,6 +868,10 @@ input:focus {
 .first-partner-row,
 .first-xs-partner-row {
     margin-top: 30px;
+}
+
+.xs-partner-row {
+   margin-bottom:10px;
 }
 
 .partner-heading-row {
@@ -879,4 +915,32 @@ input:focus {
     .videoWrapper {
         margin-top: -100px;
     }
+}
+
+.grid-sizer,
+.grid-item {
+   width : calc(25% - 10px);
+   /*height:220px;*/
+   height:0;
+   padding-bottom:20%;
+   margin-bottom: 10px;
+   background-size: cover;
+}
+
+.grid-item--width2 {
+   width: calc(50% - 10px);
+}
+
+@media (max-width: 1000px) {
+   .grid-item {
+      width : calc(50% - 10px);
+      height: 220px;
+      padding-bottom: 0;
+   }
+}
+
+@media (max-width: 600px) {
+   .grid-item {
+      width: calc(100% - 10px);
+   }
 }
