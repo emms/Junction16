@@ -4,8 +4,8 @@ html {
 }
 
 body {
-    background-color: #1c1c1c;
-    font-family: 'Source Sans Pro', sans-serif;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
     -webkit-font-smoothing: antialiased;
     margin-bottom: 240px;
     position: relative;
@@ -35,7 +35,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     line-height: 1.2;
     font-weight: bold;
@@ -43,7 +43,6 @@ h2 {
 
 h3 {
     font-size: 30px;
-    font-weight: 700;
 }
 
 h2,
@@ -54,14 +53,6 @@ h4 {
 
 p {
     color: #BBB;
-}
-
-.text-whitebg {
-    color:#2D2D2D;
-}
-
-.multi-p {
-    padding-bottom: 20px;
 }
 
 a:hover {
@@ -96,13 +87,11 @@ b {
 
 .navbar-collapse {
     text-align: right;
-    border: 0px;
 }
 
 .nav.navbar-nav {
     display: inline-block;
     float: none;
-    margin-top: 0px;
 }
 
 .navbar.navtop {
@@ -110,18 +99,10 @@ b {
     transition: 0.5s;
 }
 
-.navbar.navtop li a {
-    text-decoration: none;
-    color: white;
-    transition: 0.5s;
-    padding: 15px 7px;
-}
-
 .navbar.navtop li a:hover,
 .navbar.navtop li a:focus {
-    color: #555;
+    color: #FFF;
 }
-
 
 .navbar {
     border: none;
@@ -129,7 +110,7 @@ b {
     position: fixed;
     width: 100%;
     z-index: 1000;
-    background: #FCF7FF;
+    background: white;
     transition: 0.5s;
     height: 40px;
 }
@@ -137,7 +118,7 @@ b {
 .navbar li a:hover,
 .navbar li a:focus {
     background-color: transparent;
-    color: #777;
+    color: black;
 }
 
 .navbar li {
@@ -147,7 +128,7 @@ b {
 
 .navbar li a {
     text-decoration: none;
-    color: black;
+    color: grey;
     transition: 0.5s;
     padding: 15px 7px;
 }
@@ -165,7 +146,7 @@ b {
 }
 
 .footer {
-    height: 280px;
+    height: 240px;
     background-color: #FCF7FF;
     width: 100%;
     position: absolute;
@@ -173,7 +154,7 @@ b {
 }
 
 .footer p {
-    color: #2D2D2D;
+    color: #777;
 }
 
 .footer-contact {
@@ -249,10 +230,10 @@ b {
 }
 
 .frontpage-txt {
-    font-weight: 300;
+    font-family: Hack-Regular;
     letter-spacing: 5px;
-    color: #fff;
-    font-size: 2em;
+    color: #dc5a26;
+    font-size: 1.5em;
     margin-bottom: 5vh;
 }
 
@@ -297,7 +278,7 @@ b {
 }
 
 .main-header {
-    font-family: 'Source Sans Pro';
+    font-family: Iceland-Regular;
 }
 
 .frontpage-btn {
@@ -335,13 +316,16 @@ b {
 }
 
 .lowest-section {
-    padding-bottom: 10%;
+    padding-bottom: 15%;
 }
 
 .highest-section  {
     background-color: #FCF7FF;
 }
 
+.highest-section h3 {
+  color: black!important;
+  }
 .section-identifier {
     float: left;
     position: absolute;
@@ -361,7 +345,7 @@ b {
     padding: 10px 0;
     letter-spacing: 50;
     font-weight: bold;
-    text-align: center;
+    text-align: right;
 }
 
 .heading-line {
@@ -463,7 +447,7 @@ b {
         background-color: black;
     }
     .main-logo {
-        width: 50vw;
+        width: 80vw;
     }
     .navbar-brand {
         display: none !important;
@@ -472,19 +456,15 @@ b {
         position: fixed;
         right: 0;
         z-index: 1000000;
+        border-radius: 10px;
         background-color: black;
     }
     .nav.navbar-nav {
         text-align: right;
-        background-color: black;
     }
-
-    .navbar li a {
-      color:white;
-   }
     .navbar li a:hover:before,
     .navbar li a:focus:before {
-        border: 0;
+        border-bottom: 0;
     }
     .navbar li a:hover,
     .navbar li a:focus {
@@ -558,11 +538,6 @@ b {
     .lastyear-btn-container {
         padding: 0 !important;
     }
-
-   .centered-small {
-      text-align: center;
-   }
-
 }
 
 .dark-overlay {
@@ -591,6 +566,13 @@ b {
     margin: 0 auto;
 }
 
+.about-btn-left-padding {
+    padding: 0 3% 0 0;
+}
+
+.about-btn-right-padding {
+    padding: 0 0 0 3%;
+}
 
 .button {
     border: 2px solid #5bc8d7;
@@ -617,13 +599,6 @@ b {
     /*position: relative;*/
 }
 
-
-@media only screen and (max-width: 991px) {
-    .heading-cent {
-      text-align: center;
-   }
-}
-
 @media only screen and (max-width: 780px) {
     .about-img {
         height: 82vw;
@@ -635,7 +610,6 @@ b {
     .footer-links {
         padding-top: 20px;
     }
-
 }
 
 @media only screen and (max-width: 480px) {
@@ -704,7 +678,6 @@ input:focus {
     display: inline-block;
     margin: 0 10px;
     position: relative;
-    overflow: hidden;
 }
 
 .track-row-padding {
@@ -712,7 +685,7 @@ input:focus {
 }
 
 .track-header {
-    /*position: absolute;*/
+    position: absolute;
     bottom: 20px;
     right: 20px;
     color: #FFF;
@@ -772,6 +745,7 @@ input:focus {
 .faq-a {}
 
 .faq-box {
+    border: 2px solid #5bc8d7;
     padding: 20px;
     position: relative;
     margin-top: 20px;
@@ -779,14 +753,6 @@ input:focus {
 
 .faq-box p {
     margin: 0;
-    font-size: 20px;
-
-}
-
-.faq-box h4 {
-    margin: 0;
-    font-size: 21px;
-
 }
 
 .faq-q {
@@ -838,7 +804,6 @@ input:focus {
     width: 300px;
 }
 
-
 .quote-source h4 {
     color:black!important;
 }
@@ -857,7 +822,7 @@ input:focus {
     font-size: 80px;
     line-height: 0;
     margin-top: 15px;
-    color: black;
+    color: #black;
     vertical-align: bottom;
 
 }
@@ -868,10 +833,6 @@ input:focus {
 .first-partner-row,
 .first-xs-partner-row {
     margin-top: 30px;
-}
-
-.xs-partner-row {
-   margin-bottom:10px;
 }
 
 .partner-heading-row {
@@ -915,32 +876,4 @@ input:focus {
     .videoWrapper {
         margin-top: -100px;
     }
-}
-
-.grid-sizer,
-.grid-item {
-   width : calc(25% - 10px);
-   /*height:220px;*/
-   height:0;
-   padding-bottom:20%;
-   margin-bottom: 10px;
-   background-size: cover;
-}
-
-.grid-item--width2 {
-   width: calc(50% - 10px);
-}
-
-@media (max-width: 1000px) {
-   .grid-item {
-      width : calc(50% - 10px);
-      height: 220px;
-      padding-bottom: 0;
-   }
-}
-
-@media (max-width: 600px) {
-   .grid-item {
-      width: calc(100% - 10px);
-   }
 }
