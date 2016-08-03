@@ -23,7 +23,7 @@ figure.effect-sadie h3 {
 	transition: transform 0.35s, color 0.35s, text-shadow 0.35s;
 	-webkit-transform: translate3d(0,-90%,0);
 	transform: translate3d(0,-90%,0);
-	text-shadow: 1px 1px 3px rgba(49, 49, 49, 0.9);
+	text-shadow: 1px 1px 20px rgba(49, 49, 49, 0.9);
 }
 
 figure.effect-sadie figcaption::before,
