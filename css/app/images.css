@@ -113,6 +113,10 @@
     background-image: url('../../img/logos/kesko.png');
 }
 
+.unity {
+    background-image: url('../../img/logos/unity.png');
+}
+
 @media (max-width: 992px) {
     .partner-logo {
         margin-top: 0 !important;
