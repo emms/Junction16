@@ -107,13 +107,13 @@ b {
 
 .navbar.navtop {
     background: transparent;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .navbar.navtop li a {
     text-decoration: none;
     color: white;
-    transition: 0.5s;
+    transition: 0.3s;
     padding: 15px 7px;
 }
 
@@ -130,7 +130,7 @@ b {
     width: 100%;
     z-index: 1000;
     background: #FCF7FF;
-    transition: 0.5s;
+    transition: 0.3s;
     height: 40px;
 }
 
@@ -148,7 +148,7 @@ b {
 .navbar li a {
     text-decoration: none;
     color: black;
-    transition: 0.5s;
+    transition: 0.2s;
     padding: 15px 7px;
 }
 
@@ -209,7 +209,7 @@ b {
 .footer-links i {
     padding: 0 10px;
     color: grey;
-    transition: 0.5s;
+    transition: 0.2s;
     font-size: 30px;
 }
 
@@ -597,7 +597,7 @@ b {
     padding: 10px 35px;
     display: inline-block;
     cursor: pointer;
-    transition: 0.5s background-color;
+    transition: 0.15s background-color;
     margin-top: 30px;
 }
 
@@ -680,7 +680,7 @@ input:focus {
 }
 
 .subscribe-btn:hover {
-    transition: background-color 0.5s;
+    transition: background-color 0.2s;
     background-color: #dc5a26;
     cursor: pointer;
 }
