@@ -103,6 +103,7 @@ b {
     display: inline-block;
     float: none;
     margin-top: 0px;
+    margin: 0 100px;
 }
 
 .navbar.navtop {
@@ -158,6 +159,7 @@ b {
 
 .navbar-toggle .icon-bar {
     background-color: #FFF;
+    margin: 0 70px;
 }
 
 .navbar-brand {
@@ -456,6 +458,7 @@ b {
     .fullscreen-bg-video {
         display: none;
     }
+
     #bg-video {
         display: none;
     }
