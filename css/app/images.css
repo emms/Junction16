@@ -109,6 +109,10 @@
     background-image: url('../../img/logos/zalando.png');
 }
 
+.kesko {
+    background-image: url('../../img/logos/kesko.png');
+}
+
 @media (max-width: 992px) {
     .partner-logo {
         margin-top: 0 !important;
