@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="01xd8AeQ8P9p6D8L_24tqxBR_-gxzPrI3qu1UJJM4Ik" />
-    <meta name="description" content="Europe's largest hackathon, November 2016">
+    <meta name="description" content="Europe's leading hackathon, November 2016">
     <meta name="author" content="Aalto Entrepreneurship Society">
     <meta property="og:url" content="http://hackjunction.com" />
     <meta property="og:image" content="https://i.imgur.com/AWfwFIk.jpg" />
     <!-- Imgure link because cant put img on server.. -->
 
-    <meta property="og:title" content="Junction 2016" />
+    <meta property="og:title" content="About | Junction 2016" />
     <meta property="og:description" content="Europe's leading hackathon, November 2016" />
-    <title>Junction 2016</title>
+    <title>About | Junction 2016</title>
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
@@ -220,7 +220,7 @@
                         <i class="fa fa-medium footericon" aria-hidden="true"></i>
                     </a>
                 </div>
-                <p class="footer-contact">Contact: hackjunction@aaltoes.com</p>
+                <p class="footer-contact">Contact: hello@hackjunction.com</p>
             </div>
             <img src="../img/aaltoes_grey.png" class="aaltoes-logo">
 
@@ -237,49 +237,7 @@
     <script src="../js/lib/bootstrap.min.js"></script>
     <script type="text/javascript" src="../js/lib/skrollr.min.js"></script>
     <script type="text/javascript" src="../js/app/smoothScroll.js"></script>
-    <script type="text/javascript" src="../js/app/glitch.js"></script>
-    <script type="text/javascript" src="../js/app/faq.js"></script>
-    <script type="text/javascript" src="../js/app/logochange.js"></script>
-    <script type="text/javascript" src="../js/app/calculateTrackBoxHeights.js"></script>
-    <script type="text/javascript" src="../js/app/sectionHeights.js"></script>
-    <script type="text/javascript">
-    $.preloadImages = function() {
-        for (var i = 0; i < arguments.length; i++) {
-            $("<img />").attr("src", arguments[i]);
-        }
-    };
 
-    $.preloadImages('../img/logo_nogrunge.png', '../img/about_img.jpg', '../img/48hours.jpg', '../img/junction_logo.png', '../img/junction_logo_black.png');
-
-    $(window).resize(function() {
-        sectionHeights();
-        calculateTrackBoxHeights();
-    });
-
-    $('.button').on('click', function() {
-        if ($(this).find('a').attr('href')) {
-            window.location = $(this).find('a').attr('href');
-        }
-    });
-
-    $(window).load(function() {
-      //   $('.nav-logo-black').hide();
-        sectionHeights();
-        calculateTrackBoxHeights();
-        $('.button').hover(
-            function() {
-                $(this).find('a').css('color', 'black');
-                $(this).find('p').css('color', 'black');
-            },
-            function() {
-                $(this).find('a').css('color', '#5bc8d7');
-                $(this).find('p').css('color', '#5bc8d7');
-            }
-        );
-    });
-
-
-    </script>
 </body>
 
 </html>
