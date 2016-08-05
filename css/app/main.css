@@ -604,6 +604,13 @@ b {
 }
 
 .button:hover {
+    color:white;
+    background-color: #5bc8d7;
+
+}
+
+.button:visited {
+    color:white;
     background-color: #5bc8d7;
 
 }
