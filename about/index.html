@@ -258,23 +258,6 @@
                 $(this).find('p').css('color', '#5bc8d7');
             }
         );
-        $(this).on('scroll', function() {
-            if ($(window).scrollTop() === 0) {
-                $('.navbar').addClass('navtop');
-                $('.nav-logo-black').fadeOut().promise().done(function() {
-                    $('.nav-logo-black').fadeIn();
-                });
-            }
-        });
-        $('.aftermovie').on('click', function() {
-            $('.overlay').fadeIn();
-            $('.overlay-video').fadeIn();
-        });
-
-        $('.overlay').on('click', function() {
-            $('.overlay').fadeOut();
-            $('.overlay-video').fadeOut();
-        });
     });
 
 </script>
