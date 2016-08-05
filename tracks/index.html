@@ -80,6 +80,7 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
+<a id="mlh-trust-badge" class="mlh-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:10px;top:0;width:10%;z-index:10000000" href="https://mlh.io/seasons/eu-2017/events?utm_source=eu-2017&utm_medium=TrustBadge&utm_campaign=eu-2017&utm_content=gray" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2017/gray.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
     <!-- Google Tag Manager and others-->
     <noscript>
         <iframe src="//www.googletagmanager.com/ns.html?id=GTM-T8HSJF" height="0" width="0" style="display:none;visibility:hidden"></iframe>
@@ -121,10 +122,10 @@
                         <div class="collapse navbar-collapse" id="nav-collapse">
                             <ul class="nav navbar-nav">
                                 <li><a href="../about">ABOUT</a></li>
-                                <li><a href="#">TRACKS</a></li>
+                                <li><a href="../tracks">TRACKS</a></li>
                                 <li><a href="../partners">PARTNERS</a></li>
                                 <li><a href="../faq">FAQ</a>
-                                <li><a href="#">BLOG</a>
+                                <li><a href="https://blog.hackjunction.com/" target="_blank">BLOG</a>
                             </ul>
                         </div>
                     </div>
@@ -341,29 +342,51 @@
 
     $(window).load(function() {
         $('.nav-logo-black').hide();
-        sectionHeights();
-        calculateTrackBoxHeights();
+
         $('.button').hover(
             function() {
-                $(this).find('a').css('color', 'black');
-                $(this).find('p').css('color', 'black');
+                $(this).find('a').css('color', 'white');
+                $(this).find('p').css('color', 'white');
             },
             function() {
                 $(this).find('a').css('color', '#5bc8d7');
                 $(this).find('p').css('color', '#5bc8d7');
             }
         );
+        $(this).on('scroll', function() {
+            if ($(window).scrollTop() === 0) {
+                $('.navbar').addClass('navtop');
+                $('.nav-logo-black').fadeOut().promise().done(function() {
+                    $('.nav-logo-white').fadeIn();
+                });
 
+            } else {
+                $('.navbar').removeClass('navtop');
+                $('.nav-logo-white').fadeOut().promise().done(function() {
+                    $('.nav-logo-black').fadeIn();
+                });
+            }
+        });
+        $('.aftermovie').on('click', function() {
+            $('.overlay').fadeIn();
+            $('.overlay-video').fadeIn();
+        });
+
+        $('.overlay').on('click', function() {
+            $('.overlay').fadeOut();
+            $('.overlay-video').fadeOut();
+        });
     });
 
-   $('.grid').masonry({
-  // options
-  itemSelector: '.grid-item',
-  columnWidth: '.grid-sizer',
-  gutter: 10
-   });
+    $('.grid').masonry({
+   // options
+   itemSelector: '.grid-item',
+   columnWidth: '.grid-sizer',
+   gutter: 10
+    });
 
-    </script>
+
+</script>
 </body>
 
 </html>
