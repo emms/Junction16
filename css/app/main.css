@@ -103,17 +103,18 @@ b {
     display: inline-block;
     float: none;
     margin-top: 0px;
+    margin: 0 100px;
 }
 
 .navbar.navtop {
     background: transparent;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .navbar.navtop li a {
     text-decoration: none;
     color: white;
-    transition: 0.5s;
+    transition: 0.3s;
     padding: 15px 7px;
 }
 
@@ -130,7 +131,7 @@ b {
     width: 100%;
     z-index: 1000;
     background: #FCF7FF;
-    transition: 0.5s;
+    transition: 0.3s;
     height: 40px;
 }
 
@@ -148,7 +149,7 @@ b {
 .navbar li a {
     text-decoration: none;
     color: black;
-    transition: 0.5s;
+    transition: 0.2s;
     padding: 15px 7px;
 }
 
@@ -158,6 +159,7 @@ b {
 
 .navbar-toggle .icon-bar {
     background-color: #FFF;
+    margin: 0 70px;
 }
 
 .navbar-brand {
@@ -209,7 +211,7 @@ b {
 .footer-links i {
     padding: 0 10px;
     color: grey;
-    transition: 0.5s;
+    transition: 0.2s;
     font-size: 30px;
 }
 
@@ -249,10 +251,9 @@ b {
 }
 
 .frontpage-txt {
-    font-weight: 300;
-    letter-spacing: 5px;
+    font-weight: 400;
     color: #fff;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-bottom: 5vh;
 }
 
@@ -456,6 +457,7 @@ b {
     .fullscreen-bg-video {
         display: none;
     }
+
     #bg-video {
         display: none;
     }
@@ -597,12 +599,20 @@ b {
     padding: 10px 35px;
     display: inline-block;
     cursor: pointer;
-    transition: 0.5s background-color;
+    transition: 0.15s background-color;
     margin-top: 30px;
 }
 
 .button:hover {
+    color:white;
     background-color: #5bc8d7;
+
+}
+
+.button:visited {
+    color:white;
+    background-color: #5bc8d7;
+
 }
 
 .padding0 {
@@ -680,7 +690,7 @@ input:focus {
 }
 
 .subscribe-btn:hover {
-    transition: background-color 0.5s;
+    transition: background-color 0.2s;
     background-color: #dc5a26;
     cursor: pointer;
 }
@@ -723,7 +733,6 @@ input:focus {
 .track-header.track-header-smaller {
     font-size: 20px;
 }
-
 
 /* LAST YEAR */
 

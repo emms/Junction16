@@ -109,6 +109,18 @@
     background-image: url('../../img/logos/zalando.png');
 }
 
+.kesko {
+    background-image: url('../../img/logos/kesko.png');
+}
+
+.unity {
+    background-image: url('../../img/logos/unity.png');
+}
+
+.ge {
+    background-image: url('../../img/logos/ge.png');
+}
+
 @media (max-width: 992px) {
     .partner-logo {
         margin-top: 0 !important;

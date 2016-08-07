@@ -19,17 +19,17 @@ figure.effect-sadie h3 {
 	left: 0;
 	width: 100%;
 	color: white;
-	-webkit-transition: -webkit-transform 0.35s, color 0.35s;
-	transition: transform 0.35s, color 0.35s, text-shadow 0.35s;
+	-webkit-transition: -webkit-transform 0.25s, color 0.25s;
+	transition: transform 0.25s, color 0.25s, text-shadow 0.25s;
 	-webkit-transform: translate3d(0,-90%,0);
 	transform: translate3d(0,-90%,0);
-	text-shadow: 1px 1px 3px rgba(49, 49, 49, 0.9);
+	text-shadow: 1px 1px 20px rgba(49, 49, 49, 0.9);
 }
 
 figure.effect-sadie figcaption::before,
 figure.effect-sadie p {
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transition: opacity 0.25s, -webkit-transform 0.25s;
+	transition: opacity 0.25s, transform 0.25s;
 }
 
 figure.effect-sadie p {
@@ -51,7 +51,7 @@ figure.effect-sadie:hover h3 {
 }
 
 figure.effect-sadie:hover figcaption::before ,
-figure.effect-sadie:hover p {
+figure.effect-sadie:hover p, img {
 	opacity: 1;
 	color: #f7f7f7;
 	text-size: 18px;
