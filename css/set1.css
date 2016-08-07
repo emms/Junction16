@@ -13,10 +13,6 @@ figure.effect-sadie figcaption::before {
 	opacity: 0;
 }
 
-figure.effect-sadie img {
-	opacity:0.5;
-}
-
 figure.effect-sadie h3 {
 	position: absolute;
 	top: 70%;
@@ -45,10 +41,6 @@ figure.effect-sadie p {
 	opacity: 0;
 	-webkit-transform: translate3d(0,10px,0);
 	transform: translate3d(0,10px,0);
-}
-
-figure.effect-sadie:hover img {
-	opacity:1;
 }
 
 figure.effect-sadie:hover h3 {
