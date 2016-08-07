@@ -13,6 +13,10 @@ figure.effect-sadie figcaption::before {
 	opacity: 0;
 }
 
+figure.effect-sadie img {
+	opacity:0.5;
+}
+
 figure.effect-sadie h3 {
 	position: absolute;
 	top: 70%;
@@ -43,6 +47,10 @@ figure.effect-sadie p {
 	transform: translate3d(0,10px,0);
 }
 
+figure.effect-sadie:hover img {
+	opacity:1;
+}
+
 figure.effect-sadie:hover h3 {
 	color: #fff;
 	-webkit-transform: translate3d(0,-90%,0) translate3d(0,-40px,0);
@@ -51,7 +59,7 @@ figure.effect-sadie:hover h3 {
 }
 
 figure.effect-sadie:hover figcaption::before ,
-figure.effect-sadie:hover p {
+figure.effect-sadie:hover p, img {
 	opacity: 1;
 	color: #f7f7f7;
 	text-size: 18px;
