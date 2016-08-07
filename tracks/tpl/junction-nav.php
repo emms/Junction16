@@ -119,7 +119,7 @@
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span>
                       </button>
-                      <a href="../" class="navbar-brand">
+                      <a href="/" class="navbar-brand">
                           <img class="nav-logo-black" src="../../img/junction_logo_black.png">
                           <img class="nav-logo-white" src="../../img/junction_logo.png">
                       </a>
