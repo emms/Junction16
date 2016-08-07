@@ -35,6 +35,65 @@
 <script type="text/javascript" src="../../../js/app/smoothScroll.js"></script>
 <script type="text/javascript" src="../../../js/app/faq.js"></script>
 
+<script>
+$.preloadImages = function() {
+    for (var i = 0; i < arguments.length; i++) {
+        $("<img />").attr("src", arguments[i]);
+    }
+};
+
+$.preloadImages('../../img/logo_nogrunge.png', '../../img/about_img.jpg', '../../img/48hours.jpg', '../../img/junction_logo.png', '../../img/junction_logo_black.png');
+
+$(window).resize(function() {
+    sectionHeights();
+    calculateTrackBoxHeights();
+});
+
+$('.button').on('click', function() {
+    if ($(this).find('a').attr('href')) {
+        window.location = $(this).find('a').attr('href');
+    }
+});
+
+$(window).load(function() {
+    $('.nav-logo-black').hide();
+
+    $('.button').hover(
+        function() {
+            $(this).find('a').css('color', 'white');
+            $(this).find('p').css('color', 'white');
+        },
+        function() {
+            $(this).find('a').css('color', '#5bc8d7');
+            $(this).find('p').css('color', '#5bc8d7');
+        }
+    );
+    $(this).on('scroll', function() {
+        if ($(window).scrollTop() === 0) {
+            $('.navbar').addClass('navtop');
+            $('.nav-logo-black').fadeOut().promise().done(function() {
+                $('.nav-logo-white').fadeIn();
+            });
+
+        } else {
+            $('.navbar').removeClass('navtop');
+            $('.nav-logo-white').fadeOut().promise().done(function() {
+                $('.nav-logo-black').fadeIn();
+            });
+        }
+    });
+    $('.aftermovie').on('click', function() {
+        $('.overlay').fadeIn();
+        $('.overlay-video').fadeIn();
+    });
+
+    $('.overlay').on('click', function() {
+        $('.overlay').fadeOut();
+        $('.overlay-video').fadeOut();
+    });
+});
+</script>
+
 <script src="../dist/barba.js"></script>
 <script src="../nextprev.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.1/TweenMax.min.js"></script>

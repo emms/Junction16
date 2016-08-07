@@ -1,17 +1,17 @@
 <?php
 
 $pic_prefix = "/img/tracks/";
-$url_prefix = "/junction-tracks/junction-tracks/";
-$icon_prefix = "/junction-tracks/junction-tracks/icons/";
+$url_prefix = "/tracks/";
+$icon_prefix = "/tracks/icons/";
 
 $tracks = [
     "gaming" => [
-        "title" => "Gaming",
+        "title" => "Game Jam",
         "pic" => "gaming.jpg",
         "next" => "virtual-reality",
         "prev" => "future-mobility",
         "url" => "gaming",
-        "icon" => "gaming.png",
+        "icon" => "gaming_icon.png",
         "page_icon" => "gaming_page.png"
 
     ],
@@ -21,7 +21,7 @@ $tracks = [
         "next" => "iot",
         "prev" => "gaming",
         "url" => "virtual-reality",
-        "icon" => "vr.png",
+        "icon" => "vr_icon.png",
         "page_icon" => "vr_page.png"
     ],
     "iot" => [
@@ -30,7 +30,7 @@ $tracks = [
         "next" => "data-driven-economy",
         "prev" => "virtual-reality",
         "url" => "iot",
-        "icon" => "iot.png",
+        "icon" => "iot_icon.png",
         "page_icon" => "iot_page.png"
     ],
     "data-driven-economy" => [
@@ -39,7 +39,7 @@ $tracks = [
         "next" => "fintech",
         "prev" => "iot",
         "url" => "data-driven-economy",
-        "icon" => "dde.png",
+        "icon" => "dde_icon.png",
         "page_icon" => "dde_page.png"
     ],
     "fintech" => [
@@ -48,7 +48,8 @@ $tracks = [
         "next" => "adtech",
         "prev" => "data-driven-economy",
         "url" => "fintech",
-        "icon" => "anchor.png"
+        "icon" => "fintech_icon.png",
+        "page_icon" => "fintech_page.png"
     ],
     "adtech" => [
         "title" => "Adtech",
@@ -56,7 +57,8 @@ $tracks = [
         "next" => "healthtech",
         "prev" => "fintech",
         "url" => "adtech",
-        "icon" => "anchor.png"
+        "icon" => "ad_tech_icon.png",
+        "page_icon" => "ad_tech_page.png"
     ],
     "healthtech" => [
         "title" => "Healthtech",
@@ -64,7 +66,8 @@ $tracks = [
         "next" => "intelligent-buildings",
         "prev" => "adtech",
         "url" => "healthtech",
-        "icon" => "anchor.png"
+        "icon" => "healthtech_icon.png",
+        "page_icon" => "healthtech_page.png"
     ],
     "intelligent-buildings" => [
         "title" => "Intelligent Buildings",
@@ -72,15 +75,17 @@ $tracks = [
         "next" => "ecommerce",
         "prev" => "healthtech",
         "url" => "intelligent-buildings",
-        "icon" => "anchor.png"
+        "icon" => "ib_icon.png",
+        "page_icon" => "ib_page.png"
     ],
     "ecommerce" => [
-        "title" => "Ecommerce",
+        "title" => "Ecommerce & Retail",
         "pic" => "ecommerce.jpg",
         "next" => "future-mobility",
         "prev" => "intelligent-buildings",
         "url" => "ecommerce",
-        "icon" => "anchor.png"
+        "icon" => "ecommerce_icon.png",
+        "page_icon" => "ecommerce_page.png"
     ],
     "future-mobility" => [
         "title" => "Future Mobility",
@@ -88,7 +93,8 @@ $tracks = [
         "next" => "gaming",
         "prev" => "ecommerce",
         "url" => "future-mobility",
-        "icon" => "anchor.png"
+        "icon" => "fm_icon.png",
+        "page_icon" => "fm_page.png"
     ]
 ];
 

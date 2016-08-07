@@ -80,7 +80,6 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-<a id="mlh-trust-badge" class="mlh-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:10px;top:0;width:10%;z-index:10000000" href="https://mlh.io/seasons/eu-2017/events?utm_source=eu-2017&utm_medium=TrustBadge&utm_campaign=eu-2017&utm_content=gray" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2017/gray.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
     <!-- Google Tag Manager and others-->
     <noscript>
         <iframe src="//www.googletagmanager.com/ns.html?id=GTM-T8HSJF" height="0" width="0" style="display:none;visibility:hidden"></iframe>
@@ -114,19 +113,18 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a href="../" class="navbar-brand">
+                            <a class="navbar-brand">
                                 <img class="nav-logo-black" src="../img/junction_logo_black.png">
                                 <img class="nav-logo-white" src="../img/junction_logo.png">
                             </a>
                         </div>
                         <div class="collapse navbar-collapse" id="nav-collapse">
                             <ul class="nav navbar-nav">
-                                <li><a href="../index.html" class="visible-xs">HOME</a></li>
                                 <li><a href="../about">ABOUT</a></li>
                                 <li><a href="../tracks">TRACKS</a></li>
                                 <li><a href="../partners">PARTNERS</a></li>
                                 <li><a href="../faq">FAQ</a>
-                                <li><a href="https://blog.hackjunction.com/" target="_blank">BLOG</a>
+                                <li><a href="https://blog.hackjunction.com" target="_blank">BLOG</a>
                             </ul>
                         </div>
                     </div>
@@ -135,7 +133,7 @@
 
 
 
-        <div id="tracks" class="col-xs-12 section">
+        <div id="tracks" class="col-xs-12 section-less-padding">
                <div class="col-sm-10 col-sm-offset-1">
                   <h2 class="text-center"><span style="font-weight:700;">TEN </span><span style="font-weight:300;">TRACKS</span></h2>
                   <h3 class="cyan-txt text-center" style="font-weight:300; padding-bottom: 40px;">Hundreds of hackers - Endless possibilities</h3>
@@ -298,7 +296,7 @@
                 </div>
                 <p class="footer-contact">Contact: hackjunction@aaltoes.com</p>
             </div>
-            <img src="../img/aaltoes_grey.png" class="aaltoes-logo">
+            <img src="img/aaltoes_grey.png" class="aaltoes-logo">
 
         	</div>
 
@@ -343,51 +341,29 @@
 
     $(window).load(function() {
         $('.nav-logo-black').hide();
-
+        sectionHeights();
+        calculateTrackBoxHeights();
         $('.button').hover(
             function() {
-                $(this).find('a').css('color', 'white');
-                $(this).find('p').css('color', 'white');
+                $(this).find('a').css('color', 'black');
+                $(this).find('p').css('color', 'black');
             },
             function() {
                 $(this).find('a').css('color', '#5bc8d7');
                 $(this).find('p').css('color', '#5bc8d7');
             }
         );
-        $(this).on('scroll', function() {
-            if ($(window).scrollTop() === 0) {
-                $('.navbar').addClass('navtop');
-                $('.nav-logo-black').fadeOut().promise().done(function() {
-                    $('.nav-logo-white').fadeIn();
-                });
 
-            } else {
-                $('.navbar').removeClass('navtop');
-                $('.nav-logo-white').fadeOut().promise().done(function() {
-                    $('.nav-logo-black').fadeIn();
-                });
-            }
-        });
-        $('.aftermovie').on('click', function() {
-            $('.overlay').fadeIn();
-            $('.overlay-video').fadeIn();
-        });
-
-        $('.overlay').on('click', function() {
-            $('.overlay').fadeOut();
-            $('.overlay-video').fadeOut();
-        });
     });
 
-    $('.grid').masonry({
-   // options
-   itemSelector: '.grid-item',
-   columnWidth: '.grid-sizer',
-   gutter: 10
-    });
+   $('.grid').masonry({
+  // options
+  itemSelector: '.grid-item',
+  columnWidth: '.grid-sizer',
+  gutter: 10
+   });
 
-
-</script>
+    </script>
 </body>
 
 </html>

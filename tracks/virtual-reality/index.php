@@ -8,22 +8,24 @@
 <main id="barba-wrapper">
   <div class="barba-container">
       <header style="background-image: url(<?=$pic_prefix.$tracks[$track_name]['pic']?>);">
-          <img style="top:100px;" src="<?=$icon_prefix.$tracks[$track_name]['page_icon']; ?>"/>
+          <img src="<?=$icon_prefix.$tracks[$track_name]['page_icon']; ?>"/>
         <div><h1 style="font-size: 51px;padding: 20px 0;"><span style="font-weight:700;text-transform:uppercase;"><?=$tracks[$track_name]['title']; ?></span></h1></div>
       </header>
 
     <div class="text">
-        <h2 class="text-center" style="margin-top:100px;"><span style="font-weight:700;">CHALLENGE</span></h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad non minus porro. Rerum magnam ab, esse sunt nisi a praesentium pariatur quia unde architecto eveniet ipsum molestiae maxime sit, assumenda.</p>
-      <p>Labore maiores ratione enim tenetur sequi, esse. Expedita necessitatibus et distinctio quas eum, magni dolorem similique, quod aut, ratione optio! Laudantium similique deleniti beatae facere reiciendis laboriosam nulla fugit illum.</p>
-      <p>Atque iusto, sequi necessitatibus accusantium ipsum obcaecati. Deserunt, repudiandae, magnam fugit distinctio enim fuga excepturi incidunt eligendi nam officia accusantium id nemo omnis suscipit officiis doloremque, laboriosam tempora quas ullam.</p>
-      <p>Quibusdam officia fugit modi repudiandae recusandae mollitia at aperiam. Quod sed, eos nam laudantium, debitis eligendi hic dolore tempore vitae sequi, natus consectetur numquam adipisci! Corporis nihil autem neque quisquam.</p>
-      <p>Repellat non repudiandae illum possimus, amet cum blanditiis dolorem harum odit quibusdam accusantium nisi tempore, eos ratione soluta rerum aspernatur eligendi provident quas sunt. Quis odit dolores earum ullam perspiciatis!</p>
-      <p>Quod voluptatem veniam, optio at praesentium, saepe incidunt quia? Culpa optio perspiciatis, odit quibusdam voluptatem esse ipsam doloremque rerum hic quas, ducimus, ab nobis quia ad unde vitae error accusamus?</p>
-      <p>Impedit odit deserunt quos, vero delectus. Enim asperiores voluptatum, modi beatae! Beatae provident, minima quo dolore officiis fugiat corrupti excepturi nobis suscipit ullam nesciunt, voluptatem aliquid iure repellat atque repellendus!</p>
-      <p>Optio voluptate, provident tenetur aut molestias quod itaque id facilis illum dignissimos, sequi quaerat! Vel cumque, labore iste quam velit veniam reiciendis id, alias, maxime illum necessitatibus dolore aliquid rem.</p>
-      <p>Dolores illum similique recusandae, facilis eligendi tempore illo, necessitatibus eius ipsa magnam quae, excepturi veniam laboriosam reiciendis culpa est amet, quis? Expedita sequi, exercitationem possimus molestiae at sunt quisquam commodi.</p>
-      <p>Corporis fuga, perspiciatis iste aspernatur debitis possimus odit sint aut, ratione officia sed id pariatur voluptatem dolores atque asperiores doloribus praesentium labore laudantium veritatis. Totam, recusandae mollitia dignissimos cupiditate! Voluptas!</p>
+        <h2 class="text-center hostedby"><span style="font-weight:700;">HOSTED</span> BY</h2>
+        <div >
+            <div class="col-md-4 col-sm-4"></div>
+            <div class="col-md-4 col-sm-4"><div class="partner-logo unity" style=""></div></div>
+            <div class="col-md-4 col-sm-4"></div>
+        </div>
+        <div class="clear"></div>
+        <!--<h2 class="text-center" style="margin-top:100px;"><span style="font-weight:700;">CHALLENGE</span></h2>-->
+        <p>Virtual reality is red hot right now, and this track is meant for those interested in building immersive, engaging experiences for real industry applications. There’s very few industries in the world that aren’t looking at VR with lustful eyes. </p>
+        <p>From fashion and sports to architecture and film, data visualisation and engineering to education and healthcare, every sector will be impacted by the rise of VR. We want to turn that hype into reality, and that’s why we’re looking for VR enthusiasts and newbies to come to Junction and build something useful with the latest and greatest in VR tech and APIs. Does that sound like you? Sign up now!</p>
+        <div class="text-center"><div class="button" style="margin: 0 auto;"><a href="#" style="color: rgb(91, 200, 215);">APPLY</a></div></div>
+
+
     </div>
 
     <?php
