@@ -23,11 +23,14 @@
 
         <!--<h2 class="text-center" style="margin-top:100px;"><span style="font-weight:700;">CHALLENGE</span></h2>-->
         <p>Everyday, we’re one step closer towards a more connected world. The cost of interconnected devices is falling fast and pretty soon anything with a power switch may be connected to the internet. From monitoring your home temperature, to automating manufacturing processes, saving up energy and environmental-friendly solutions to sensor augmented clothes, the Internet of Things is changing the way we live and do business.</p>
-        <div class="text-center"><div class="button" style="margin: 0 auto;"><a href="#" style="color: rgb(91, 200, 215);">APPLY</a></div></div>
+        <div class="text-center"><div class="button" style="margin: 0 auto;"><a href="https://register.hackjunction.com" style="color: rgb(91, 200, 215);">APPLY</a></div></div>
+        <?php
+            include '../tpl/pagination.php';
+        ?>
     </div>
 
     <?php
-        include '../tpl/pagination.php';
+        //include '../tpl/pagination.php';
     ?>
 
     <!--<a class="barba-nav next" href="<?=$url_prefix.$tracks[$tracks[$track_name]['next']]['url']?>"  style="background-image: url(<?=$pic_prefix.$tracks[$tracks[$track_name]['next']]['pic']?>);"></a>

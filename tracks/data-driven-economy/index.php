@@ -23,13 +23,15 @@
 
         <!--<h2 class="text-center" style="margin-top:100px;"><span style="font-weight:700;">CHALLENGE</span></h2>-->
         <p>Today’s sensors can get tiny enough to be sandwiched between molecules. Thus, it’s no surprise that we’re generating data every time we walk, talk or eat outside (and quite often, inside) our homes. When anonymised and aggregated, this data can be used to gather unique insights and answer questions about how crowds move, think and make decisions. This track is all about using these new streams of data to improve profitability and efficiency of businesses, and improving the user experience of their services and products.</p>
-        <div class="text-center"><div class="button" style="margin: 0 auto;"><a href="#" style="color: rgb(91, 200, 215);">APPLY</a></div></div>
-
+        <div class="text-center"><div class="button" style="margin: 0 auto;"><a href="https://register.hackjunction.com" style="color: rgb(91, 200, 215);">APPLY</a></div></div>
+        <?php
+            include '../tpl/pagination.php';
+        ?>
 
     </div>
 
     <?php
-        include '../tpl/pagination.php';
+        //include '../tpl/pagination.php';
     ?>
 
     <!--<a class="barba-nav next" href="<?=$url_prefix.$tracks[$tracks[$track_name]['next']]['url']?>"  style="background-image: url(<?=$pic_prefix.$tracks[$tracks[$track_name]['next']]['pic']?>);"></a>

@@ -23,12 +23,15 @@
 
         <!--<h2 class="text-center" style="margin-top:100px;"><span style="font-weight:700;">CHALLENGE</span></h2>-->
       <p>Our buildings are getting smarter. The last few years have been focused on smart cars but buildings are not far behind. With various sensors such as temperature, ultrasound, video, and motion many processes can be automated and consumables reduced. Want to help take buildings into the digital age? Join now!</p>
-      <div class="text-center"><div class="button" style="margin: 0 auto;"><a href="#" style="color: rgb(91, 200, 215);">APPLY</a></div></div>
+      <div class="text-center"><div class="button" style="margin: 0 auto;"><a href="https://register.hackjunction.com" style="color: rgb(91, 200, 215);">APPLY</a></div></div>
+      <?php
+          include '../tpl/pagination.php';
+      ?>
 
     </div>
 
     <?php
-        include '../tpl/pagination.php';
+        //include '../tpl/pagination.php';
     ?>
 
     <!--<a class="barba-nav next" href="<?=$url_prefix.$tracks[$tracks[$track_name]['next']]['url']?>"  style="background-image: url(<?=$pic_prefix.$tracks[$tracks[$track_name]['next']]['pic']?>);"></a>

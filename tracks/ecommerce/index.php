@@ -24,11 +24,14 @@
         <!--<h2 class="text-center" style="margin-top:100px;"><span style="font-weight:700;">CHALLENGE</span></h2>-->
 
       <p style="margin-top: 100px;">Apple Pay. Google Wallet. New methods of buying products are constantly emerging and the gap between online and brick and mortar sales is decreasing. Businesses are constantly looking for innovations both at the point of sale and all along the sales funnel. How can e-commerce penetrate mobile? How can retail get smarter? Apply now!</p>
-      <div class="text-center"><div class="button" style="margin: 0 auto;"><a href="#" style="color: rgb(91, 200, 215);">APPLY</a></div></div>
+      <div class="text-center"><div class="button" style="margin: 0 auto;"><a href="https://register.hackjunction.com" style="color: rgb(91, 200, 215);">APPLY</a></div></div>
+      <?php
+          include '../tpl/pagination.php';
+      ?>
     </div>
 
     <?php
-        include '../tpl/pagination.php';
+        //include '../tpl/pagination.php';
     ?>
 
     <!--<a class="barba-nav next" href="<?=$url_prefix.$tracks[$tracks[$track_name]['next']]['url']?>"  style="background-image: url(<?=$pic_prefix.$tracks[$tracks[$track_name]['next']]['pic']?>);"></a>
