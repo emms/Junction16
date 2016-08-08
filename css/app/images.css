@@ -44,6 +44,7 @@
 
 .healthtech-img {
     background-image: url('../../img/tracks/healthtech.jpg');
+    background-position: bottom;
 }
 
 .gaming-img {
