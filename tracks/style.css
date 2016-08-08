@@ -97,6 +97,20 @@ a.barba-nav {
   background-image: none!important;
 }
 
+a.barba2-nav.bottom{
+    position: relative;
+    display: inline-block;
+    top: 0;
+    height: auto;
+}
+
+a.barba2-nav.bottom{
+    margin: 15px;
+}
+a.barba2-nav.bottom img{
+    width: 60px;
+}
+
 a.barba-nav span{
     vertical-align: middle;
 }
@@ -160,7 +174,7 @@ a.barba-nav.prev4{
 }
 
 div.text{
-    padding-bottom: 140px;
+    padding-bottom: 40px;
 }
 
 .clear{

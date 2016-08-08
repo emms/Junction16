@@ -26,7 +26,7 @@
         <p>Want to spend a weekend creating a game with other awesome people? Apply now!</p>
         <div class="text-center"><div class="button" style="margin: 0 auto;"><a href="#" style="color: rgb(91, 200, 215);">APPLY</a></div></div>
         <?php
-        //include '../tpl/pagination.php';
+        include '../tpl/pagination.php';
          ?>
 
     </div>
@@ -38,7 +38,7 @@
 
 
     <?php
-    include '../tpl/pagination.php';
+    //include '../tpl/pagination.php';
      ?>
 
   </div>

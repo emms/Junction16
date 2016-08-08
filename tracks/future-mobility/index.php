@@ -23,12 +23,15 @@
 
         <!--<h2 class="text-center" style="margin-top:100px;"><span style="font-weight:700;">CHALLENGE</span></h2>-->
       <p>From self driving cars to smart cities software and sensor technology is changing the way we move around. Hate traffic? Us too. Hate pollution? Same. Hate finding a parking spot? Yep. Join the Future Mobility track and solve these problems. Apply now!</p>
-      <div class="text-center"><div class="button" style="margin: 0 auto;"><a href="#" style="color: rgb(91, 200, 215);">APPLY</a></div></div>
+      <div class="text-center"><div class="button" style="margin: 0 auto;"><a href="https://register.hackjunction.com" style="color: rgb(91, 200, 215);">APPLY</a></div></div>
+      <?php
+          include '../tpl/pagination.php';
+      ?>
 
     </div>
 
     <?php
-        include '../tpl/pagination.php';
+        //include '../tpl/pagination.php';
     ?>
 
     <!--<a class="barba-nav next" href="<?=$url_prefix.$tracks[$tracks[$track_name]['next']]['url']?>"  style="background-image: url(<?=$pic_prefix.$tracks[$tracks[$track_name]['next']]['pic']?>);"></a>
