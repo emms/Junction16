@@ -24,7 +24,7 @@
         <!--<h2 class="text-center" style="margin-top:100px;"><span style="font-weight:700;">CHALLENGE</span></h2>-->
         <p>Do you love making games? Then a Game Jam is exactly what you need. A Game Jam is about bringing together passionate game developers to design, plan, and create games that are engaging and addictive. Simple and fun gameplay is key.</p>
         <p>Want to spend a weekend creating a game with other awesome people? Apply now!</p>
-        <div class="text-center"><div class="button" style="margin: 0 auto;"><a href="#" style="color: rgb(91, 200, 215);">APPLY</a></div></div>
+        <div class="text-center"><div class="button" style="margin: 0 auto;"><a href="https://register.hackjunction.com" style="color: rgb(91, 200, 215);">APPLY</a></div></div>
         <?php
         include '../tpl/pagination.php';
          ?>
