@@ -1,0 +1,32 @@
+.schedule h3 {
+    font-weight: bold;
+}
+.schedule .table {
+    text-align: left;
+    font-size: 20px;
+}
+.schedule .table.hardware tbody td {
+    padding-left: 30px;
+}
+.schedule .table td:nth-child(1) {
+    width: 12%;
+    min-width: 50px;
+}
+.schedule .table td:last-child {
+    width: 15%;
+    min-width: 75px;
+}
+.schedule .table td {
+    color: white;
+}
+.schedule thead {
+    font-weight: bold;
+    color: #F1B026;
+    border-bottom: 2px solid #F1B026;
+}
+body {
+    margin-bottom: 0px !important;
+}
+#footer {
+    position: initial;
+}
