@@ -104,7 +104,7 @@ b {
     display: inline-block;
     float: none;
     margin-top: 0px;
-    margin: 0 100px;
+    margin: 0 100px 0px 0px;
 }
 
 .navbar.navtop {
