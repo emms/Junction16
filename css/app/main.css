@@ -4,6 +4,7 @@ html {
 }
 
 body {
+    background-image: url("../../img/bg/dark.png");
     background-color: #1c1c1c;
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -340,6 +341,7 @@ b {
 }
 
 .highest-section  {
+    background-image: url("../../img/bg/light.png");
     background-color: #FCF7FF;
 }
 

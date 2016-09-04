@@ -125,6 +125,18 @@
     background-image: url('../../img/logos/ge.png');
 }
 
+.zalando {
+    background-image: url('../../img/logos/zalando.png');
+}
+
+.deezer {
+    background-image: url('../../img/logos/deezer.png');
+}
+
+.elks {
+    background-image: url('../../img/logos/46elks.png');
+}
+
 @media (max-width: 992px) {
     .partner-logo {
         margin-top: 0 !important;
