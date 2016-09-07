@@ -5,6 +5,19 @@
     text-align: left;
     font-size: 20px;
 }
+
+@media screen and (max-width: 480px) {
+    .schedule .table {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .schedule .table {
+        font-size: 15px;
+    }
+}
+
 .schedule .table.hardware tbody td {
     padding-left: 30px;
 }
