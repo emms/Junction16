@@ -63,6 +63,9 @@
     background-image: url('../../img/tracks/dde.jpg');
 }
 
+.ai-img {
+    background-image: url('../../img/tracks/ai.jpg');
+}
 
 
 /* Partners */
@@ -132,6 +135,10 @@
 
 .elks {
     background-image: url('../../img/logos/46elks.png');
+}
+
+.transferwise {
+    background-image: url('../../img/logos/transferwise.png');
 }
 
 @media (max-width: 992px) {

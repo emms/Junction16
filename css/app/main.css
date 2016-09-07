@@ -842,6 +842,7 @@ input:focus {
     background-color: #FCF7FF;
       text-decoration: none!important;
       padding-bottom: 8%;
+      background-image: url("../../img/bg/light.png");
   }
 
 .quote-line {
