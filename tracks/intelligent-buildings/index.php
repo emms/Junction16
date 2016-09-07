@@ -21,7 +21,7 @@
         </div>
         <div class="clear"></div>
 
-      <p>Our buildings are getting smarter. The last few years have been focused on smart cars but buildings are not far behind. With various sensors such as temperature, ultrasound, video, and motion many processes can be automated and consumables reduced. Want to help take buildings into the digital age? Join now!</p>
+      <p>Our buildings are getting smarter. The last few years have been focused on smart cars but buildings are not far behind. With various sensors such as temperature, ultrasound, video, and indoor positioning many processes can be automated and consumables reduced. Want to help take buildings into the digital age? Join now!</p>
       <h2 class="text-center" style="margin-top:100px;"><span style="font-weight:700;">CHALLENGE</span></h2>
       <p><b>The Future of Building Maintenance</b></p>
       <p><i>Create a kickass mobile app that supports building operators and maintenance in their daily tasks</i></p>
