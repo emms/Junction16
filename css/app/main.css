@@ -58,7 +58,7 @@ p {
 }
 
 .text-whitebg {
-    color:#2D2D2D;
+    color: #2D2D2D;
 }
 
 .multi-p {
@@ -123,7 +123,6 @@ b {
 .navbar.navtop li a:focus {
     color: #555;
 }
-
 
 .navbar {
     border: none;
@@ -270,6 +269,10 @@ b {
     padding-top: 60px;
 }
 
+.paddingbottom60 {
+    padding-bottom: 60px;
+}
+
 .main-logo {
     width: 30%;
     display: block;
@@ -340,7 +343,7 @@ b {
     padding-bottom: 10%;
 }
 
-.highest-section  {
+.highest-section {
     background-image: url("../../img/bg/light.png");
     background-color: #FCF7FF;
 }
@@ -459,7 +462,6 @@ b {
     .fullscreen-bg-video {
         display: none;
     }
-
     #bg-video {
         display: none;
     }
@@ -482,10 +484,9 @@ b {
         text-align: right;
         background-color: black;
     }
-
     .navbar li a {
-      color:white;
-   }
+        color: white;
+    }
     .navbar li a:hover:before,
     .navbar li a:focus:before {
         border: 0;
@@ -530,6 +531,13 @@ b {
     .button {
         padding: 10px 15px !important;
     }
+    .event-info-text {
+        text-align: center;
+    }
+    .pre-event-btn {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media (max-width: 992px) {
@@ -562,11 +570,9 @@ b {
     .lastyear-btn-container {
         padding: 0 !important;
     }
-
-   .centered-small {
-      text-align: center;
-   }
-
+    .centered-small {
+        text-align: center;
+    }
 }
 
 .dark-overlay {
@@ -585,6 +591,10 @@ b {
     margin-top: 50px;
 }
 
+.topmargin30 {
+    margin-top: 30px;
+}
+
 .text-content {
     overflow: hidden;
 }
@@ -594,7 +604,6 @@ b {
     text-align: center;
     margin: 0 auto;
 }
-
 
 .button {
     border: 2px solid #5bc8d7;
@@ -606,15 +615,13 @@ b {
 }
 
 .button:hover {
-    color:white;
+    color: white;
     background-color: #5bc8d7;
-
 }
 
 .button:visited {
-    color:white;
+    color: white;
     background-color: #5bc8d7;
-
 }
 
 .padding0 {
@@ -629,11 +636,10 @@ b {
     /*position: relative;*/
 }
 
-
 @media only screen and (max-width: 991px) {
     .heading-cent {
-      text-align: center;
-   }
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 780px) {
@@ -647,7 +653,6 @@ b {
     .footer-links {
         padding-top: 20px;
     }
-
 }
 
 @media only screen and (max-width: 480px) {
@@ -736,6 +741,7 @@ input:focus {
     font-size: 20px;
 }
 
+
 /* LAST YEAR */
 
 .white-box {
@@ -766,7 +772,6 @@ input:focus {
 .videoWrapper {
     position: relative;
     height: 0;
-
 }
 
 .videoWrapper iframe {
@@ -791,13 +796,11 @@ input:focus {
 .faq-box p {
     margin: 0;
     font-size: 20px;
-
 }
 
 .faq-box h4 {
     margin: 0;
     font-size: 21px;
-
 }
 
 .faq-q {
@@ -840,24 +843,23 @@ input:focus {
 
 .quote {
     background-color: #FCF7FF;
-      text-decoration: none!important;
-      padding-bottom: 8%;
-      background-image: url("../../img/bg/light.png");
-  }
+    text-decoration: none!important;
+    padding-bottom: 8%;
+    background-image: url("../../img/bg/light.png");
+}
 
 .quote-line {
     border-bottom: 2px solid #777;
     width: 300px;
 }
 
-
 .quote-source h4 {
-    color:black!important;
+    color: black!important;
 }
 
 .quote-txt {
     display: inline;
-    color:black;
+    color: black;
 }
 
 .quote-txt:hover {
@@ -871,7 +873,6 @@ input:focus {
     margin-top: 15px;
     color: black;
     vertical-align: bottom;
-
 }
 
 
@@ -883,7 +884,7 @@ input:focus {
 }
 
 .xs-partner-row {
-   margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
 .partner-heading-row {
@@ -898,15 +899,30 @@ input:focus {
 .partners-txt-sm {
     margin-top: 30px;
 }
+
+
+/* PRE-EVENTS */
+
+.event-info-text {
+    margin-top: 20px;
+}
+
+.pre-event-btn {
+    margin-top: 25px;
+    float: right;
+}
+
+
 /* CTA */
 
-.CTA  {
-  background-color: white;
-  padding: 5% 0 5% 0;
-    }
+.CTA {
+    background-color: white;
+    padding: 5% 0 5% 0;
+}
+
 .CTA h3 {
-  color: black;
-  }
+    color: black;
+}
 
 .back-button {
     color: #777;
@@ -931,28 +947,28 @@ input:focus {
 
 .grid-sizer,
 .grid-item {
-   width : calc(25% - 10px);
-   /*height:220px;*/
-   height:0;
-   padding-bottom:20%;
-   margin-bottom: 10px;
-   background-size: cover;
+    width: calc(25% - 10px);
+    /*height:220px;*/
+    height: 0;
+    padding-bottom: 20%;
+    margin-bottom: 10px;
+    background-size: cover;
 }
 
 .grid-item--width2 {
-   width: calc(50% - 10px);
+    width: calc(50% - 10px);
 }
 
 @media (max-width: 1000px) {
-   .grid-item {
-      width : calc(50% - 10px);
-      height: 220px;
-      padding-bottom: 0;
-   }
+    .grid-item {
+        width: calc(50% - 10px);
+        height: 220px;
+        padding-bottom: 0;
+    }
 }
 
 @media (max-width: 600px) {
-   .grid-item {
-      width: calc(100% - 10px);
-   }
+    .grid-item {
+        width: calc(100% - 10px);
+    }
 }
