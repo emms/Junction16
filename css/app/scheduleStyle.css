@@ -29,7 +29,7 @@
     width: 15%;
     min-width: 75px;
 }
-.schedule .table td {
+.schedule .table tbody td {
     color: white;
 }
 .schedule thead {
