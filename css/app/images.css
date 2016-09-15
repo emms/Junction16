@@ -141,6 +141,23 @@
     background-image: url('../../img/logos/transferwise.png');
 }
 
+.skype {
+    background-image: url('../../img/logos/skype.png');
+}
+
+.futurice {
+    background-image: url('../../img/logos/futurice.png');
+}
+
+.jcd {
+    background-image: url('../../img/logos/jcd.png');
+}
+
+.esa {
+    background-image: url('../../img/logos/esa.png');
+}
+
+
 @media (max-width: 992px) {
     .partner-logo {
         margin-top: 0 !important;
