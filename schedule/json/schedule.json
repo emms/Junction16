@@ -1,0 +1,376 @@
+[
+    {
+        "date": "Fri, Nov 25th",
+        "time": "17:00",
+        "general": "Doors open",
+        "outside": "Registration"
+    },
+    {
+        "time": "18:00"
+    },
+    {
+        "time": "18:40",
+        "length": "18 min",
+        "general": "Opening ceremony starts",
+        "stage": "Opening Words by Junction team\n+MLH\n+????",
+        "participants": "On stage"
+    },
+    {
+        "time": "19:00",
+        "length": "25 min",
+        "general": "Monty Widenius"
+    },
+    {
+        "time": "19:35",
+        "length": "28 min",
+        "general": "Snacks",
+        "foodArea": "Snacks"
+    },
+    {
+        "time": "20:05",
+        "length": "8 min",
+        "general": "Chief Partner Presentation #1",
+        "stage": "Chief Partner Presentation"
+    },
+    {
+        "time": "20:14",
+        "length": "8 min",
+        "general": "Chief Partner Presentation #2",
+        "stage": "Chief Partner Presentation"
+    },
+    {
+        "time": "20:25",
+        "length": "8 min",
+        "general": "Chief Partner Presentation #3",
+        "stage": "Chief Partner Presentation"
+    },
+    {
+        "time": "20:35",
+        "length": "8 min",
+        "general": "Chief Partner Presentation #4",
+        "stage": "Chief Partner Presentation"
+    },
+    {
+        "time": "20:45",
+        "length": "8 min",
+        "general": "Chief Partner Presentation #5",
+        "stage": "Chief Partner Presentation"
+    },
+    {
+        "time": "20:55",
+        "length": "8 min",
+        "general": "Chief Partner Presentation #6",
+        "stage": "Chief Partner Presentation"
+    },
+    {
+        "time": "21:05",
+        "length": "8 min",
+        "general": "Chief Partner Presentation #7",
+        "stage": "Chief Partner Presentation"
+    },
+    {
+        "time": "21:15",
+        "length": "8 min",
+        "general": "Chief Partner Presentation #8",
+        "stage": "Chief Partner Presentation"
+    },
+    {
+        "time": "21:25",
+        "length": "1,5min",
+        "general": "Check out the venue",
+        "stage": "Venue overview"
+    },
+    {
+        "time": "21:27",
+        "length": "1,5min",
+        "stage": "HW Lab introduction"
+    },
+    {
+        "time": "21:29",
+        "length": "1,5min",
+        "stage": "Electric Paja Introduction"
+    },
+    {
+        "time": "21:31",
+        "length": "1,5min",
+        "stage": "VR-Space Introduction"
+    },
+    {
+        "time": "21:33",
+        "length": "17min",
+        "general": "Intermission",
+        "stage": "Logo Video"
+    },
+    {
+        "time": "21:50",
+        "length": "2min",
+        "general": "Lightning Pitch #1",
+        "stage": "Lightning Pitch #1"
+    },
+    {
+        "time": "21:53",
+        "length": "2min",
+        "general": "Lightning Pitch #2",
+        "stage": "Lightning Pitch #2"
+    },
+    {
+        "time": "21:56",
+        "length": "2min",
+        "general": "Lightning Pitch #3",
+        "stage": "Lightning Pitch #3"
+    },
+    {
+        "time": "21:59",
+        "length": "2min",
+        "general": "Lightning Pitch #4",
+        "stage": "Lightning Pitch #4"
+    },
+    {
+        "time": "22:02",
+        "length": "2min",
+        "general": "Lightning Pitch #5",
+        "stage": "Lightning Pitch #5"
+    },
+    {
+        "time": "22:05",
+        "length": "2min",
+        "general": "Lightning Pitch #6",
+        "stage": "Lightning Pitch #6"
+    },
+    {
+        "time": "22:08",
+        "length": "2min",
+        "general": "Lightning Pitch #7",
+        "stage": "Lightning Pitch #7"
+    },
+    {
+        "time": "22:11",
+        "length": "2min",
+        "general": "Lightning Pitch #8",
+        "stage": "Lightning Pitch #8"
+    },
+    {
+        "time": "22:14",
+        "length": "2min",
+        "general": "Lightning Pitch #9",
+        "stage": "Lightning Pitch #9"
+    },
+    {
+        "time": "22:17",
+        "length": "2min",
+        "general": "Lightning Pitch #10",
+        "stage": "Lightning Pitch #10"
+    },
+    {
+        "time": "22:20",
+        "length": "2min",
+        "general": "Lightning Pitch #11",
+        "stage": "Lightning Pitch #11"
+    },
+    {
+        "time": "22:23",
+        "length": "2min",
+        "general": "Lightning Pitch #12",
+        "stage": "Lightning Pitch #12"
+    },
+    {
+        "time": "22:26",
+        "length": "2min",
+        "general": "Lightning Pitch #13",
+        "stage": "Lightning Pitch #13"
+    },
+    {
+        "time": "22:29",
+        "length": "2min",
+        "general": "Lightning Pitch #14",
+        "stage": "Lightning Pitch #14"
+    },
+    {
+        "time": "22:32",
+        "length": "2min",
+        "general": "Lightning Pitch #15",
+        "stage": "Lightning Pitch #15"
+    },
+    {
+        "time": "22:35",
+        "length": "10 min",
+        "general": "Buffer",
+        "stage": "Logo Video"
+    },
+    {
+        "time": "22:45",
+        "general": "Teambuilding",
+        "ehall": "Teambuilding"
+    },
+    {
+        "time": "23:00",
+        "general": "Teambuilding + Food",
+        "foodArea": "Food",
+        "trackRooms": "Hacking Starts",
+        "keynoteStage": "Chilling Area"
+    },
+    {
+        "time": "23:30",
+        "general": "Teambuilding"
+    },
+    {
+        "time": "24:00"
+    },
+    {
+        "date": "Sat, Nov 26th",
+        "time": "09:00",
+        "length": "60 min",
+        "general": "Breakfast",
+        "stage": "NOT IN USE",
+        "outside": "Check badges of people returning",
+        "foodArea": "Breakfast"
+    },
+    {
+        "time": "10:00",
+        "length": "20 min",
+        "general": "VR Yoga Session",
+        "keynoteStage": "Yoga"
+    },
+    {
+        "time": "10:10",
+        "length": "8min",
+        "general": "API Demos",
+        "keynoteStage": "API Demos"
+    },
+    {
+        "time": "10:20",
+        "length": "8min",
+        "general": "API Demos",
+        "keynoteStage": "API Demos"
+    },
+    {
+        "time": "10:30",
+        "length": "8min",
+        "general": "API Demos",
+        "keynoteStage": "API Demos"
+    },
+    {
+        "time": "10:40",
+        "length": "8min",
+        "general": "API Demos",
+        "keynoteStage": "API Demos"
+    },
+    {
+        "time": "10:50"
+    },
+    {
+        "time": "14:00",
+        "general": "Lunch"
+    },
+    {
+        "time": "18:00",
+        "general": "Dinner"
+    },
+    {
+        "keynoteStage": "Chilling Area"
+    },
+    {
+        "date": "Sun, Nov 27th",
+        "time": "09:00",
+        "length": "60 min",
+        "general": "Breakfast"
+    },
+    {
+        "time": "09:30"
+    },
+    {
+        "time": "10:00"
+    },
+    {
+        "time": "10:30"
+    },
+    {
+        "time": "11:00"
+    },
+    {
+        "time": "11:30"
+    },
+    {
+        "time": "12:00"
+    },
+    {
+        "time": "12:30"
+    },
+    {
+        "time": "13:00"
+    },
+    {
+        "time": "13:30"
+    },
+    {
+        "time": "14:00",
+        "general": "Submission deadline"
+    },
+    {
+        "time": "14:30"
+    },
+    {
+        "time": "15:00",
+        "general": "Demo Expo Begins"
+    },
+    {
+        "time": "15:10",
+        "stage": "Main stage returned in use",
+        "foodArea": "Food",
+        "trackRooms": "Chairs away"
+    },
+    {
+        "time": "15:20",
+        "foodArea": "Food"
+    },
+    {
+        "time": "15:30",
+        "foodArea": "Food"
+    },
+    {
+        "time": "15:40",
+        "foodArea": "Food"
+    },
+    {
+        "time": "15:50",
+        "foodArea": "Food"
+    },
+    {
+        "time": "16:00",
+        "foodArea": "Food"
+    },
+    {
+        "time": "16:30"
+    },
+    {
+        "time": "17:00"
+    },
+    {
+        "time": "17:30"
+    },
+    {
+        "time": "18:00",
+        "general": "Closing ceremony starts"
+    },
+    {
+        "time": "18:30",
+        "general": "Track winner announcements"
+    },
+    {
+        "time": "19:00",
+        "general": "Partner challenge winner announcements",
+        "stage": "Opening words"
+    },
+    {
+        "time": "19:05"
+    },
+    {
+        "time": "19:20"
+    },
+    {
+        "time": "19:50"
+    },
+    {
+        "date": "Day 4, May 9th"
+    }
+]
