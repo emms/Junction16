@@ -66,35 +66,8 @@
     <main>
 
     <!-- Navbar -->
-    <nav>
-        <div class="navbar navtop" id="menu">
-            <div class="">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="../" class="navbar-brand">
-                        <img class="nav-logo-black" src="../img/junction_logo_black.png">
-                        <img class="nav-logo-white" src="../img/junction_logo.png">
-                    </a>
-                </div>
-                <div class="collapse navbar-collapse" id="nav-collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="../index.html" class="visible-xs">HOME</a></li>
-                        <li><a href="../about">ABOUT</a></li>
-                        <li><a href="../pre-events">PRE-EVENTS</a></li>
-                        <li><a href="../partners">PARTNERS</a></li>
-                        <li><a href="../faq">FAQ</a>
-                        <li><a href="https://blog.hackjunction.com/" target="_blank">BLOG</a>
-                        <li><a href="https://register.hackjunction.com/">APPLY</a>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <nav id="navigationBar"></nav>
+    <!-- Navbar -->
     <!-- FAQ -->
 
         <div class="col-xs-12 section" style="margin-bottom: 25px">
@@ -261,33 +234,6 @@
 
 </main>
     <footer id="footer" class="footer">
-        <div class="container footer-cont">
-            <div class="col-md-8 hidden-xs hidden-sm">
-                <img src="../img/logo_main_grey.svg" class="footer-logo">
-                <p class="footer-txt">
-                    Junction is Europe’s largest hackathon and a converging point for developers, designers, and entrepreneurs from across the world. Held on November 25-27 in Helsinki, Finland.
-                </p>
-            </div>
-            <div class="col-md-4 col-xs-12 footer-rightcol">
-                <div class="footer-links">
-                    <a href="https://www.facebook.com/hackjunction">
-                        <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://www.instagram.com/hackjunction">
-                        <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://twitter.com/hackjunction">
-                        <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://medium.com/hack-junction">
-                        <i class="fa fa-medium fa-3x" aria-hidden="true"></i>
-                    </a>
-                </div>
-                <p class="footer-contact">Contact: <a href="mailto:hello@hackjunction.com">hello@hackjunction.com</a></p>
-                <p class="text-center text-whitebg" style="margin-top:20px">Check out our <a href="../presskit.html"> presskit</a></p>
-            </div>
-            <a href="http://aaltoes.com"><img src="../img/aaltoes_grey.png" class="aaltoes-logo"></a>
-        </div>
     </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -315,6 +261,9 @@
             window.location = $(this).find('a').attr('href');
         }
     });
+
+    $('#navigationBar').load('../includes/header_alt.html');
+    $('#footer').load('../includes/footer_alt.html');
 
     $(window).load(function() {
         $('.nav-logo-black').hide();
