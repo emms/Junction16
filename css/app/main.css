@@ -972,3 +972,60 @@ input:focus {
         width: calc(100% - 10px);
     }
 }
+.modal-content {
+	color: black;
+	padding: 30px 30px;
+}
+
+.modal-content .close-modal {
+	float: right;
+	font-size: 40px;
+	cursor: pointer;
+}
+
+.modal-content a, .modal-content a:visited, .modal-content a:hover, .modal-content a:active {
+	color: black;
+	text-decoration: underline;
+}
+
+.modal-content .track-box {
+	max-width: 100%;
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	display: block;
+}
+
+.modal-content h2, .modal-content h3, .modal-content h3 {
+   color: black;
+	text-align: center;
+	font-weight: 700;
+}
+
+@media (min-width: 1000px) {
+	.modal-content {
+		padding: 30px 100px;
+	}
+
+	.close-modal {
+		margin-right: -65px;
+	}
+}
+
+.modal-content .track-box:hover {
+	box-shadow: none;
+}
+
+
+#unity-modal .modal-content {
+	background-color: white;
+}
+
+.challenge-info {
+   cursor: pointer;
+}
+
+.challenge-info:hover {
+   color: #5bc8d7;
+
+}
