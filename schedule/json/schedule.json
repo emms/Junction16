@@ -1,374 +1,499 @@
 [
     {
         "date": "Fri, Nov 25th",
-        "time": "17:00",
+        "time": "1899-12-30T15:20:11.000Z",
+        "length": "1899-12-29T23:20:11.000Z",
         "general": "Doors open",
         "outside": "Registration"
     },
     {
-        "time": "18:00"
+        "time": "1899-12-30T16:20:11.000Z",
+        "length": "1899-12-29T23:00:11.000Z",
+        "general": "Registration"
     },
     {
-        "time": "18:40",
-        "length": "18 min",
+        "time": "1899-12-30T17:00:11.000Z",
+        "length": "1899-12-29T22:38:11.000Z",
         "general": "Opening ceremony starts",
         "stage": "Opening Words by Junction team\n+MLH\n+????",
         "participants": "On stage"
     },
     {
-        "time": "19:00",
-        "length": "25 min",
-        "general": "Monty Widenius"
-    },
-    {
-        "time": "19:35",
-        "length": "28 min",
-        "general": "Snacks",
+        "time": "1899-12-30T17:18:11.000Z",
+        "length": "1899-12-29T22:45:11.000Z",
+        "general": "Monty Widenius",
         "foodArea": "Snacks"
     },
     {
-        "time": "20:05",
-        "length": "8 min",
-        "general": "Chief Partner Presentation #1",
+        "time": "1899-12-30T17:43:11.000Z",
+        "length": "1899-12-29T22:20:11.000Z",
+        "general": "Snacks served",
+        "foodArea": "Snacks"
+    },
+    {
+        "time": "1899-12-30T17:43:11.000Z",
+        "length": "1899-12-29T22:28:11.000Z",
+        "general": "Nokia",
+        "stage": "Chief Partner Presentation",
+        "foodArea": "Snacks"
+    },
+    {
+        "time": "1899-12-30T17:51:11.000Z",
+        "length": "1899-12-29T22:28:11.000Z",
+        "general": "UPM",
+        "stage": "Chief Partner Presentation",
+        "foodArea": "Snacks"
+    },
+    {
+        "time": "1899-12-30T17:59:11.000Z",
+        "length": "1899-12-29T22:28:11.000Z",
+        "general": "Tieto",
         "stage": "Chief Partner Presentation"
     },
     {
-        "time": "20:14",
-        "length": "8 min",
-        "general": "Chief Partner Presentation #2",
+        "time": "1899-12-30T18:07:11.000Z",
+        "length": "1899-12-29T22:28:11.000Z",
+        "general": "Supercell",
         "stage": "Chief Partner Presentation"
     },
     {
-        "time": "20:25",
-        "length": "8 min",
-        "general": "Chief Partner Presentation #3",
+        "time": "1899-12-30T18:15:11.000Z",
+        "length": "1899-12-29T22:28:11.000Z",
+        "general": "Futurice+JCdecaux",
         "stage": "Chief Partner Presentation"
     },
     {
-        "time": "20:35",
-        "length": "8 min",
-        "general": "Chief Partner Presentation #4",
+        "time": "1899-12-30T18:23:11.000Z",
+        "length": "1899-12-29T22:28:11.000Z",
+        "general": "Kesko",
         "stage": "Chief Partner Presentation"
     },
     {
-        "time": "20:45",
-        "length": "8 min",
-        "general": "Chief Partner Presentation #5",
+        "time": "1899-12-30T18:31:11.000Z",
+        "length": "1899-12-29T22:28:11.000Z",
+        "general": "ESA",
         "stage": "Chief Partner Presentation"
     },
     {
-        "time": "20:55",
-        "length": "8 min",
-        "general": "Chief Partner Presentation #6",
+        "time": "1899-12-30T18:39:11.000Z",
+        "length": "1899-12-29T22:28:11.000Z",
+        "general": "Skype",
         "stage": "Chief Partner Presentation"
     },
     {
-        "time": "21:05",
-        "length": "8 min",
-        "general": "Chief Partner Presentation #7",
+        "time": "1899-12-30T18:47:11.000Z",
+        "length": "1899-12-29T22:28:11.000Z",
+        "general": "STM",
         "stage": "Chief Partner Presentation"
     },
     {
-        "time": "21:15",
-        "length": "8 min",
-        "general": "Chief Partner Presentation #8",
-        "stage": "Chief Partner Presentation"
-    },
-    {
-        "time": "21:25",
-        "length": "1,5min",
+        "time": "1899-12-30T18:55:11.000Z",
+        "length": "1899-12-29T22:22:01.000Z",
         "general": "Check out the venue",
         "stage": "Venue overview"
     },
     {
-        "time": "21:27",
-        "length": "1,5min",
-        "stage": "HW Lab introduction"
+        "time": "1899-12-30T18:57:01.000Z",
+        "length": "1899-12-29T22:22:01.000Z",
+        "general": "Aaltoes",
+        "stage": "HW Lab introduction",
+        "participants": "On stage"
     },
     {
-        "time": "21:29",
-        "length": "1,5min",
-        "stage": "Electric Paja Introduction"
+        "time": "1899-12-30T18:58:51.000Z",
+        "length": "1899-12-29T22:22:01.000Z",
+        "general": "Aaltoes",
+        "stage": "Electric Paja Introduction",
+        "participants": "On stage"
     },
     {
-        "time": "21:31",
-        "length": "1,5min",
-        "stage": "VR-Space Introduction"
+        "time": "1899-12-30T19:00:41.000Z",
+        "length": "1899-12-29T22:22:01.000Z",
+        "general": "Aaltoes",
+        "stage": "VR-Space Introduction",
+        "participants": "On stage"
     },
     {
-        "time": "21:33",
-        "length": "17min",
+        "time": "1899-12-30T19:02:31.000Z",
+        "length": "1899-12-29T22:37:11.000Z",
         "general": "Intermission",
         "stage": "Logo Video"
     },
     {
-        "time": "21:50",
-        "length": "2min",
-        "general": "Lightning Pitch #1",
+        "time": "1899-12-30T19:19:31.000Z",
+        "length": "1899-12-29T22:22:11.000Z",
+        "general": "EMBERS",
         "stage": "Lightning Pitch #1"
     },
     {
-        "time": "21:53",
-        "length": "2min",
-        "general": "Lightning Pitch #2",
+        "time": "1899-12-30T19:21:31.000Z",
+        "length": "1899-12-29T22:22:11.000Z",
+        "general": "Zalando",
         "stage": "Lightning Pitch #2"
     },
     {
-        "time": "21:56",
-        "length": "2min",
+        "time": "1899-12-30T19:23:31.000Z",
+        "length": "1899-12-29T22:22:11.000Z",
         "general": "Lightning Pitch #3",
         "stage": "Lightning Pitch #3"
     },
     {
-        "time": "21:59",
-        "length": "2min",
+        "time": "1899-12-30T19:25:31.000Z",
+        "length": "1899-12-29T22:22:11.000Z",
         "general": "Lightning Pitch #4",
         "stage": "Lightning Pitch #4"
     },
     {
-        "time": "22:02",
-        "length": "2min",
+        "time": "1899-12-30T19:27:31.000Z",
+        "length": "1899-12-29T22:22:11.000Z",
         "general": "Lightning Pitch #5",
         "stage": "Lightning Pitch #5"
     },
     {
-        "time": "22:05",
-        "length": "2min",
-        "general": "Lightning Pitch #6",
-        "stage": "Lightning Pitch #6"
-    },
-    {
-        "time": "22:08",
-        "length": "2min",
-        "general": "Lightning Pitch #7",
-        "stage": "Lightning Pitch #7"
-    },
-    {
-        "time": "22:11",
-        "length": "2min",
-        "general": "Lightning Pitch #8",
-        "stage": "Lightning Pitch #8"
-    },
-    {
-        "time": "22:14",
-        "length": "2min",
-        "general": "Lightning Pitch #9",
-        "stage": "Lightning Pitch #9"
-    },
-    {
-        "time": "22:17",
-        "length": "2min",
-        "general": "Lightning Pitch #10",
-        "stage": "Lightning Pitch #10"
-    },
-    {
-        "time": "22:20",
-        "length": "2min",
-        "general": "Lightning Pitch #11",
-        "stage": "Lightning Pitch #11"
-    },
-    {
-        "time": "22:23",
-        "length": "2min",
-        "general": "Lightning Pitch #12",
-        "stage": "Lightning Pitch #12"
-    },
-    {
-        "time": "22:26",
-        "length": "2min",
-        "general": "Lightning Pitch #13",
-        "stage": "Lightning Pitch #13"
-    },
-    {
-        "time": "22:29",
-        "length": "2min",
-        "general": "Lightning Pitch #14",
-        "stage": "Lightning Pitch #14"
-    },
-    {
-        "time": "22:32",
-        "length": "2min",
-        "general": "Lightning Pitch #15",
-        "stage": "Lightning Pitch #15"
-    },
-    {
-        "time": "22:35",
-        "length": "10 min",
+        "time": "1899-12-30T19:29:31.000Z",
+        "length": "1899-12-29T22:30:11.000Z",
         "general": "Buffer",
         "stage": "Logo Video"
     },
     {
-        "time": "22:45",
+        "time": "1899-12-30T19:39:31.000Z",
         "general": "Teambuilding",
         "ehall": "Teambuilding"
     },
     {
-        "time": "23:00",
+        "time": "1899-12-30T19:39:31.000Z",
         "general": "Teambuilding + Food",
         "foodArea": "Food",
         "trackRooms": "Hacking Starts",
         "keynoteStage": "Chilling Area"
     },
     {
-        "time": "23:30",
+        "time": "1899-12-30T19:39:31.000Z",
         "general": "Teambuilding"
     },
     {
-        "time": "24:00"
+        "time": "1899-12-30T19:39:31.000Z"
+    },
+    {
+        "time": "1899-12-30T19:39:31.000Z"
+    },
+    {
+        "time": "1899-12-30T19:39:31.000Z"
     },
     {
         "date": "Sat, Nov 26th",
-        "time": "09:00",
-        "length": "60 min",
+        "time": "1899-12-30T07:20:11.000Z",
+        "length": "1899-12-29T23:20:11.000Z",
         "general": "Breakfast",
         "stage": "NOT IN USE",
         "outside": "Check badges of people returning",
         "foodArea": "Breakfast"
     },
     {
-        "time": "10:00",
-        "length": "20 min",
+        "time": "1899-12-30T08:20:11.000Z",
+        "length": "1899-12-29T22:40:11.000Z",
         "general": "VR Yoga Session",
         "keynoteStage": "Yoga"
     },
     {
-        "time": "10:10",
-        "length": "8min",
+        "time": "1899-12-30T08:40:11.000Z",
+        "length": "1899-12-29T22:28:11.000Z",
         "general": "API Demos",
         "keynoteStage": "API Demos"
     },
     {
-        "time": "10:20",
-        "length": "8min",
+        "time": "1899-12-30T08:48:11.000Z",
+        "length": "1899-12-29T22:28:11.000Z",
         "general": "API Demos",
         "keynoteStage": "API Demos"
     },
     {
-        "time": "10:30",
-        "length": "8min",
+        "time": "1899-12-30T08:56:11.000Z",
+        "length": "1899-12-29T22:28:11.000Z",
         "general": "API Demos",
         "keynoteStage": "API Demos"
     },
     {
-        "time": "10:40",
-        "length": "8min",
+        "time": "1899-12-30T09:04:11.000Z",
+        "length": "1899-12-29T22:28:11.000Z",
         "general": "API Demos",
         "keynoteStage": "API Demos"
     },
     {
-        "time": "10:50"
+        "time": "1899-12-30T09:12:11.000Z"
     },
     {
-        "time": "14:00",
-        "general": "Lunch"
+        "time": "1899-12-30T09:12:11.000Z"
     },
     {
-        "time": "18:00",
-        "general": "Dinner"
+        "time": "1899-12-30T09:12:11.000Z"
     },
     {
+        "time": "1899-12-30T09:12:11.000Z"
+    },
+    {
+        "time": "1899-12-30T10:20:11.000Z",
+        "length": "1899-12-30T00:20:11.000Z",
+        "general": "Lunch",
+        "foodArea": "Lunch"
+    },
+    {
+        "time": "1899-12-30T12:20:11.000Z",
+        "foodArea": "Lunch"
+    },
+    {
+        "time": "1899-12-30T12:20:11.000Z"
+    },
+    {
+        "time": "1899-12-30T12:20:11.000Z"
+    },
+    {
+        "time": "1899-12-30T12:20:11.000Z"
+    },
+    {
+        "time": "1899-12-30T12:20:11.000Z"
+    },
+    {
+        "time": "1899-12-30T12:20:11.000Z",
+        "foodArea": "Dinner"
+    },
+    {
+        "time": "1899-12-30T16:20:11.000Z",
+        "length": "1899-12-29T22:40:11.000Z",
+        "general": "Dinner",
+        "foodArea": "Dinner"
+    },
+    {
+        "time": "1899-12-30T16:40:11.000Z",
+        "length": "1899-12-29T22:38:11.000Z",
+        "general": "Keynotes",
+        "foodArea": "Dinner",
+        "keynoteStage": "AI?"
+    },
+    {
+        "time": "1899-12-30T16:58:11.000Z",
+        "length": "1899-12-29T22:38:11.000Z",
+        "general": "Keynotes",
+        "keynoteStage": "HelsinkiJs Slot"
+    },
+    {
+        "time": "1899-12-30T17:16:11.000Z",
+        "length": "1899-12-29T22:38:11.000Z",
+        "general": "Keynotes",
+        "keynoteStage": "HelsinkiJs Slot"
+    },
+    {
+        "time": "1899-12-30T17:34:11.000Z",
+        "length": "1899-12-29T22:38:11.000Z",
+        "general": "Keynotes",
+        "keynoteStage": "Elias Pietilä & Cooln Shit Apps"
+    },
+    {
+        "time": "1899-12-30T17:52:11.000Z",
+        "length": "1899-12-29T22:38:11.000Z",
+        "general": "Keynotes",
+        "keynoteStage": "Machine Learning & Graphics"
+    },
+    {
+        "time": "1899-12-30T18:10:11.000Z",
+        "length": "1899-12-29T22:38:11.000Z",
+        "general": "Keynotes",
+        "keynoteStage": "AI?"
+    },
+    {
+        "time": "1899-12-30T18:28:11.000Z",
+        "length": "1899-12-29T22:42:11.000Z",
+        "general": "Break"
+    },
+    {
+        "time": "1899-12-30T18:50:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z",
+        "general": "-",
         "keynoteStage": "Chilling Area"
     },
     {
+        "time": "1899-12-30T19:20:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z",
+        "general": "-"
+    },
+    {
+        "time": "1899-12-30T19:50:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z",
+        "general": "-"
+    },
+    {
+        "time": "1899-12-30T20:20:11.000Z",
+        "length": "1899-12-29T23:20:11.000Z",
+        "general": "-"
+    },
+    {
+        "time": "1899-12-30T21:20:11.000Z",
+        "length": "1899-12-29T23:20:11.000Z",
+        "general": "-"
+    },
+    {
         "date": "Sun, Nov 27th",
-        "time": "09:00",
-        "length": "60 min",
-        "general": "Breakfast"
+        "time": "1899-12-30T07:20:11.000Z",
+        "length": "1899-12-29T23:20:11.000Z",
+        "general": "Breakfast",
+        "foodArea": "Breakfast"
     },
     {
-        "time": "09:30"
+        "time": "1899-12-30T08:20:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z"
     },
     {
-        "time": "10:00"
+        "time": "1899-12-30T08:50:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z"
     },
     {
-        "time": "10:30"
+        "time": "1899-12-30T09:20:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z"
     },
     {
-        "time": "11:00"
-    },
-    {
-        "time": "11:30"
-    },
-    {
-        "time": "12:00"
-    },
-    {
-        "time": "12:30"
-    },
-    {
-        "time": "13:00"
-    },
-    {
-        "time": "13:30"
-    },
-    {
-        "time": "14:00",
-        "general": "Submission deadline"
-    },
-    {
-        "time": "14:30"
-    },
-    {
-        "time": "15:00",
-        "general": "Demo Expo Begins"
-    },
-    {
-        "time": "15:10",
-        "stage": "Main stage returned in use",
-        "foodArea": "Food",
-        "trackRooms": "Chairs away"
-    },
-    {
-        "time": "15:20",
+        "time": "1899-12-30T09:50:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z",
         "foodArea": "Food"
     },
     {
-        "time": "15:30",
+        "time": "1899-12-30T10:20:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z",
+        "general": "Submission deadline",
         "foodArea": "Food"
     },
     {
-        "time": "15:40",
+        "time": "1899-12-30T10:50:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z",
         "foodArea": "Food"
     },
     {
-        "time": "15:50",
-        "foodArea": "Food"
+        "time": "1899-12-30T11:20:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z",
+        "general": "Demo Expo Begins",
+        "trackRooms": "Demo Expo"
     },
     {
-        "time": "16:00",
-        "foodArea": "Food"
+        "time": "1899-12-30T11:50:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z",
+        "trackRooms": "Demo Expo"
     },
     {
-        "time": "16:30"
+        "time": "1899-12-30T12:20:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z",
+        "trackRooms": "Demo Expo"
     },
     {
-        "time": "17:00"
+        "time": "1899-12-30T12:50:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z",
+        "general": "Demo Expo Ends",
+        "trackRooms": "Demo Expo"
     },
     {
-        "time": "17:30"
+        "time": "1899-12-30T13:20:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z",
+        "general": "Judging ceremony starts",
+        "stage": "Main stage returned in use"
     },
     {
-        "time": "18:00",
-        "general": "Closing ceremony starts"
+        "time": "1899-12-30T13:50:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z",
+        "general": "Partner challenge winner announcements"
     },
     {
-        "time": "18:30",
-        "general": "Track winner announcements"
+        "time": "1899-12-30T14:20:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z",
+        "general": "Track winner announcements",
+        "foodArea": "Light Dinner"
     },
     {
-        "time": "19:00",
-        "general": "Partner challenge winner announcements",
-        "stage": "Opening words"
+        "time": "1899-12-30T14:50:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z",
+        "general": "Light Dinner",
+        "foodArea": "Light Dinner"
     },
     {
-        "time": "19:05"
+        "time": "1899-12-30T15:20:11.000Z",
+        "length": "1899-12-29T23:20:11.000Z",
+        "general": "Closing ceremony",
+        "stage": "Final teams pitching",
+        "foodArea": "Light Dinner"
     },
     {
-        "time": "19:20"
+        "time": "1899-12-30T16:20:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z",
+        "general": "Closing Speech + winner"
     },
     {
-        "time": "19:50"
+        "time": "1899-12-30T16:50:11.000Z",
+        "length": "1899-12-29T22:20:11.000Z",
+        "general": "END"
+    },
+    {
+        "time": "1899-12-30T16:50:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z"
+    },
+    {
+        "time": "1899-12-30T17:20:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z"
+    },
+    {
+        "time": "1899-12-30T17:50:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z"
+    },
+    {
+        "time": "1899-12-30T18:20:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z"
+    },
+    {
+        "time": "1899-12-30T18:50:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z"
+    },
+    {
+        "time": "1899-12-30T19:20:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z"
+    },
+    {
+        "time": "1899-12-30T19:50:11.000Z",
+        "length": "1899-12-29T22:50:11.000Z"
+    },
+    {
+        "time": "1899-12-30T20:20:11.000Z"
+    },
+    {
+        "time": "1899-12-30T20:20:11.000Z"
+    },
+    {
+        "time": "1899-12-30T20:20:11.000Z"
+    },
+    {
+        "time": "1899-12-30T20:20:11.000Z"
+    },
+    {
+        "time": "1899-12-30T20:20:11.000Z"
+    },
+    {
+        "time": "1899-12-30T20:20:11.000Z"
+    },
+    {
+        "time": "1899-12-30T20:20:11.000Z"
+    },
+    {
+        "time": "1899-12-30T20:20:11.000Z"
+    },
+    {
+        "time": "1899-12-30T20:20:11.000Z"
+    },
+    {
+        "time": "1899-12-30T20:20:11.000Z"
+    },
+    {
+        "time": "1899-12-30T20:20:11.000Z"
+    },
+    {
+        "time": "1899-12-30T20:20:11.000Z"
+    },
+    {
+        "time": "1899-12-30T20:20:11.000Z"
     },
     {
         "date": "Day 4, May 9th"
