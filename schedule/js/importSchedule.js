@@ -10,7 +10,7 @@ $.getJSON('./json/schedule.json',
 				currentDate = data[i].date.split(',')[0];
 				generateNewTable(currentDate, data[i].date);
 			}
-			tr.append("<td>" + data[i].time + "</td>");
+			tr.append("<td>" + returnTime(data[i].time) + "</td>");
 			tr.append("<td>" + data[i].general + "</td>");
 			tr.append("<td>" + data[i].stage + "</td>");	
 			$('.schedule table#'+currentDate+'schedule tbody').append(tr);
@@ -24,5 +24,11 @@ $.getJSON('./json/schedule.json',
 			$('#'+date+'schedule thead').append('<tr><td>Start</td><td>Event</td><td>Location</td></tr>');
 			$('#'+date+'schedule').append('<tbody></tbody>');
 		}
+
+		function returnTime(value) {
+			var date = new Date(value),
+			time = moment(date.getTime()).zone(-100).format("HH:mm");
+			return time;  
+		}
 	}
-);
+	);
