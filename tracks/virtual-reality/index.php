@@ -25,27 +25,28 @@
         <!--<h2 class="text-center" style="margin-top:100px;"><span style="font-weight:700;">CHALLENGE</span></h2>-->
         <p>Virtual reality is red hot right now, and this track is meant for those interested in building immersive, engaging experiences for real industry applications. There’s very few industries in the world that aren’t looking at VR with lustful eyes. </p>
         <p>From fashion and sports to architecture and film, data visualisation and engineering to education and healthcare, every sector will be impacted by the rise of VR. We want to turn that hype into reality, and that’s why we’re looking for VR enthusiasts and newbies to come to Junction and build something useful with the latest and greatest in VR tech and APIs. Does that sound like you? Sign up now!</p>
+        <div class="text-center"><div class="button" style="margin: 0 auto;"><a href="https://register.hackjunction.com" style="color: rgb(91, 200, 215);">APPLY</a></div></div>
         <h2 class="text-center">CHALLENGES</h2>
-           <div >
-               <div class="col-md-4 col-sm-4"></div>
-               <div class="col-md-4 col-sm-4"><div class="partner-logo unity"></div></div>
+           <div class="challenge-logo">
+            <div class="col-md-4 col-sm-4"></div>
+               <div class="col-md-4 col-sm-4"><div class="partner-logo unity" style="height: 100px; padding-bottom: 0px;"></div></div>
                <div class="col-md-4 col-sm-4"></div>
            </div>
            <div class="clear"></div>
-           <p class="text-center">Unexpected Virtuality</p>
-           <h4 class="challenge-info unity-info text-center">READ MORE</h4>
+           <p class="text-center" style="margin-top: 0px">Unexpected Virtuality</p>
+           <h4 class="challenge-info unity-info text-center" style="padding-bottom: 50px;">READ MORE</h4>
 
-        <div >
-            <div class="col-md-4 col-sm-4"></div>
-            <div class="col-md-4 col-sm-4"><div class="partner-logo deezer"></div></div>
-            <div class="col-md-4 col-sm-4"></div>
-        </div>
-        <div class="clear"></div>
-        <p class="text-center">New Music Realities and Experiences</p>
-        <h4 class="challenge-info deezer-info text-center">READ MORE</h4>
+           <div >
+               <div class="col-md-4 col-sm-4"></div>
+               <div class="col-md-4 col-sm-4"><div class="partner-logo deezer" style="height: 100px; padding-bottom: 0px;"></div></div>
+               <div class="col-md-4 col-sm-4"></div>
+           </div>
+           <div class="clear"></div>
+           <p class="text-center" style="margin-top: 0px">New Music Realities and Experiences</p>
+           <h4 class="challenge-info deezer-info text-center">READ MORE</h4>
 
-        <h2 class="text-center hostedby" style="margin-bottom: 50px;">DEVELOPER TOOLKIT</h2>
-        <div class="text-center"><div class="button" style="margin: 0 auto;"><a href="https://register.hackjunction.com" style="color: rgb(91, 200, 215);">APPLY</a></div></div>
+        <!-- <h2 class="text-center hostedby" style="margin-bottom: 50px;">DEVELOPER TOOLKIT</h2> -->
+        <!-- <div class="text-center"><div class="button" style="margin-top: 100px;"><a href="https://register.hackjunction.com" style="color: rgb(91, 200, 215);">APPLY</a></div></div> -->
         <?php
             include '../tpl/pagination.php';
         ?>
@@ -84,6 +85,7 @@
            <p>
               Free Unity pro licenses for a year and/or tickets to Unite Europe.
            </p>
+           <div class="text-center"><div class="button" style="margin: 0 auto;"><a href="https://register.hackjunction.com" style="color: rgb(91, 200, 215);">APPLY</a></div></div>
 
        </div>
      </div>
@@ -103,12 +105,14 @@
            </p>
            <h4>Criteria for winning</h4>
            <p>
-              We’re interested in seeing the next step for VR. In order to win you need to either use Unity or show how your project could be integrated with Unity. Show us how VR can be more realistic and exceptional.
+             There must be a specific and original goal behind the integration of the Deezer API or SDK into your project. We believe music and technology have always been a perfect combination for an outstanding user experience: the creativity and effective use of the Deezer service is our most important criteria.
+
            </p>
            <h4>Prize</h4>
            <p>
              PLAY:5 and PLAY:1 Sonos Wireless Speakers, enjoy the purest and most precise sound experience!
            </p>
+           <div class="text-center"><div class="button" style="margin: 0 auto;"><a href="https://register.hackjunction.com" style="color: rgb(91, 200, 215);">APPLY</a></div></div>
 
        </div>
      </div>

@@ -985,7 +985,7 @@ input:focus {
 
 .modal-content a, .modal-content a:visited, .modal-content a:hover, .modal-content a:active {
 	color: black;
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 }
 
 .modal-content .track-box {
@@ -1023,9 +1023,10 @@ input:focus {
 
 .challenge-info {
    cursor: pointer;
+   color: #5bc8d7;
 }
 
 .challenge-info:hover {
-   color: #5bc8d7;
+   color: white;
 
 }
