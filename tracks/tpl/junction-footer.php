@@ -94,22 +94,6 @@ $(window).load(function() {
 });
 </script>
 
-<!-- Script for opening and closing modal-->
-<script>
-      var currentModal;
-
-    // Open modal when track is clicked
-    $('.challenge-info').click(function(e){
-      var clickedTrack = e.target.className.split(" ")[1]; //get the clicked element class (eq. klarna)
-      currentModal = $('#' + clickedTrack + '-modal');
-      currentModal.modal('show');
-    });
-
-    $('.close-modal').click(function(){
-      currentModal.modal('hide');
-    });
-</script>
-
 <script src="../dist/barba.js"></script>
 <script src="../nextprev.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.1/TweenMax.min.js"></script>
