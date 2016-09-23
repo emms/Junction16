@@ -11,8 +11,8 @@ $.getJSON('./json/schedule.json',
 				generateNewTable(currentDate, data[i].date);
 			}
 			tr.append("<td>" + returnTime(data[i].time) + "</td>");
-			tr.append("<td>" + data[i].general + "</td>");
-			tr.append("<td>" + data[i].stage + "</td>");	
+			tr.append("<td>" + display(data[i].general) + "</td>");
+			tr.append("<td>" + display(data[i].stage) + "</td>");	
 			$('.schedule table#'+currentDate+'schedule tbody').append(tr);
 		}	
 
@@ -29,6 +29,10 @@ $.getJSON('./json/schedule.json',
 			var date = new Date(value),
 			time = moment(date.getTime()).zone(-100).format("HH:mm");
 			return time;  
+		}
+
+		function display(value){
+			return value || '';
 		}
 	}
 	);
