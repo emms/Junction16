@@ -105,10 +105,8 @@
          <h4>Criteria for winning</h4>
          <p>The winning entry will help us see the bus stop from a fresh perspective - a vibrant part of the city that empowers both citizens and visitors and potentially makes it easier for the rich variety of people who wait for public transport every day to access digital services.</p>
          <p>It could be an easy solution for a small everyday challenge “Lost in the city”, “Where is the party out?”, “The bus is late”, “I’m hungry, where could I have lunch?” or it could be something bigger, something revolutionary, for example a way to empower people to make a difference in the city and in the society.</p>
-         <h4>Prize</h4>
-         <p>-The first team will win 2000€<br>
-            -The second team will win 1000€<br>
-            -The third team will win 500€</p>
+        <!-- <h4>Prize</h4>
+         <p></p>-->
          <div class="text-center"><div class="button" style="margin: 0 auto;"><a href="https://register.hackjunction.com" style="color: rgb(91, 200, 215);">APPLY</a></div></div>
 
      </div>
