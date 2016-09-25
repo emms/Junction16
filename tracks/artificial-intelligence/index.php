@@ -2,7 +2,7 @@
 <?php include '../tpl/content.php';?>
 
 <?php
-    $track_name = 'adtech';
+    $track_name = 'artificial-intelligence';
 ?>
 
 <main id="barba-wrapper">
@@ -23,7 +23,7 @@
 
         <!--<h2 class="text-center" style="margin-top:100px;"><span style="font-weight:700;">CHALLENGE</span></h2>-->
 
-      <p style="margin-top:100px;">How many ad companies does it take to screw in a lightbulb? None. They’ve automated their processes. Increasingly, technology is becoming inseparable from advertising. Whether it’s in sourcing leads, generating and tailoring ad content or maintaining a relationship with potential customers, companies are increasingly looking for tech solutions that let them handle these tasks quickly, efficiently and at scale. Have an aptitude for marketing? This is the track for you!</p>
+      <p style="margin-top:100px;">From bots, to personal assistants, and shopping automation, what the future holds for artificial intelligence can be described for sure with at least one word; Exciting. Our machines and devices are getting faster, more efficient and slowly learning to do things on their own. Are you ready to be part of the next tech revolution?</p>
       <div class="text-center"><div class="button" style="margin: 0 auto;"><a href="https://register.hackjunction.com" style="color: rgb(91, 200, 215);">APPLY</a></div></div>
       <?php
           include '../tpl/pagination.php';

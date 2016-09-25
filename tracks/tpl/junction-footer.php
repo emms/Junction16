@@ -22,7 +22,7 @@
                     <i class="fa fa-medium fa-3x" aria-hidden="true"></i>
                 </a>
             </div>
-            <p class="footer-contact">Contact: hackjunction@aaltoes.com</p>
+            <p class="footer-contact">Contact: hello@hackjunction.com</p>
         </div>
         <a href="http://aaltoes.com"><img src="../../../img/aaltoes_grey.png" class="aaltoes-logo"></a>
     </div>

@@ -51,12 +51,12 @@ $tracks = [
         "icon" => "fintech_icon.png",
         "page_icon" => "fintech_page.png"
     ],
-    "adtech" => [
-        "title" => "Adtech",
-        "pic" => "adtech.jpg",
+    "artificial-intelligence" => [
+        "title" => "Artificial Intelligence",
+        "pic" => "ai.jpg",
         "next" => "healthtech",
         "prev" => "fintech",
-        "url" => "adtech",
+        "url" => "artificial-intelligence",
         "icon" => "ad_tech_icon.png",
         "page_icon" => "ad_tech_page.png"
     ],

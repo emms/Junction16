@@ -15,10 +15,10 @@
     <div class="text">
         <h2 class="text-center hostedby"><span style="font-weight:700;">HOSTED</span> BY</h2>
         <div >
-            <div class="col-md-2 col-sm-2"></div>
-            <div class="col-md-4 col-sm-4"><div class="partner-logo unity" style=""></div></div>
-            <div class="col-md-4 col-sm-4"><div class="partner-logo deezer" style=""></div></div>
-            <div class="col-md-2 col-sm-2"></div>
+            <div class="col-md-4 col-sm-4"></div>
+            <div class="col-md-2 col-sm-2"><div class="partner-logo unity" style=""></div></div>
+            <div class="col-md-2 col-sm-2"><div class="partner-logo deezer" style=""></div></div>
+            <div class="col-md-4 col-sm-4"></div>
         </div>
         <div class="clear"></div>
         <h2 class="text-center"><span style="font-weight:700;">TRACK</span> SUMMARY</h2>
