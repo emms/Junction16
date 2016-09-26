@@ -34,7 +34,7 @@
              </div>
              <div class="clear"></div>
              <p class="text-center" style="margin-top: 20px">Fashion as a service</p>
-             <h4 class="challenge-info upm-info text-center" style="padding-bottom: 50px;">READ MORE</h4>
+             <h4 class="challenge-info zalando-info text-center" style="padding-bottom: 50px;">READ MORE</h4>
 
           <!-- <h2 class="text-center hostedby" style="margin-bottom: 50px;">DEVELOPER TOOLKIT</h2> -->
           <!-- <div class="text-center"><div class="button" style="margin-top: 100px;"><a href="https://register.hackjunction.com" style="color: rgb(91, 200, 215);">APPLY</a></div></div> -->
@@ -56,11 +56,11 @@
   </div>
 
   <!-- zalando-modal -->
-  <div class="modal fade" id="deezer-info-modal" tabindex="-1" role="dialog" aria-labelledby="trackmodal">
+  <div class="modal fade" id="zalando-info-modal" tabindex="-1" role="dialog" aria-labelledby="trackmodal">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
           <i class="fa fa-times-circle close-modal"></i>
-          <div class="challenge-info deezer"></div>
+          <div class="challenge-info zalando"></div>
           <h2 class="track-heading">Zalando: Fashion as a service</h2>
           <h4>Challenge</h4>
           <p>The call is out there for all you creative and talented hackers to develop something amazing over the Junction weekend! Work with our <a href="https://github.com/zalando/shop-api-documentation">Shop API</a>,  which gives you access to the Zalando web shop and allows a number of operations, such as searching for articles, categories, filters or brands on offer, and access to details about them. Use your imagination and combine it with some other available services to create a unique experience.</p>
