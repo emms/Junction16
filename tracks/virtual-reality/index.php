@@ -29,7 +29,7 @@
         <h2 class="text-center">CHALLENGES</h2>
            <div class="challenge-logo">
             <div class="col-md-4 col-sm-4"></div>
-               <div class="col-md-4 col-sm-4"><div class="partner-logo unity" style="height: 100px; padding-bottom: 0px;"></div></div>
+               <div class="col-md-4 col-sm-4"><div class="partner-logo unity" style="height: 150px; padding-bottom: 0px;"></div></div>
                <div class="col-md-4 col-sm-4"></div>
            </div>
            <div class="clear"></div>
@@ -38,7 +38,7 @@
 
            <div >
                <div class="col-md-4 col-sm-4"></div>
-               <div class="col-md-4 col-sm-4"><div class="partner-logo deezer" style="height: 100px; padding-bottom: 0px;"></div></div>
+               <div class="col-md-4 col-sm-4"><div class="partner-logo deezer" style="height: 150px; padding-bottom: 0px;"></div></div>
                <div class="col-md-4 col-sm-4"></div>
            </div>
            <div class="clear"></div>

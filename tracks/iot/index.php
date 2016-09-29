@@ -38,8 +38,8 @@
 
              <div class="challenge-logo">
                 <div class="col-md-4 col-sm-4"></div>
-                 <div class="col-md-2 col-sm-2"><div class="partner-logo jcd" style="height: 100px; padding-bottom: 0px;"></div></div>
-                 <div class="col-md-2 col-sm-2"><div class="partner-logo futurice" style="height: 100px; padding-bottom: 0px;"></div></div>
+                 <div class="col-md-2 col-sm-2"><div class="partner-logo jcd" style="height: 150px; padding-bottom: 0px;"></div></div>
+                 <div class="col-md-2 col-sm-2"><div class="partner-logo futurice" style="height: 150px; padding-bottom: 0px;"></div></div>
                  <div class="col-md-4 col-sm-4"></div>
              </div>
              <div class="clear"></div>
@@ -80,7 +80,7 @@
           <h4>Criteria for winning</h4>
           <p>High business value, a well-scoped and applicable solution, easy to pilot and adopt. Innovativeness of approach, new ways of collecting, using and/or presenting information.</p>
           <h4>Prize</h4>
-          <p>Groundbreaking pairs of <a href="http://www.genelec.com/studio-monitors/m-series-studio-monitors/m030-studio-monitor">Genelec M030 studio monitors</a> for winning team members. Monitors are made from sustainable and recyclable natural composite – <a href="http://www.upm.com/formi/Pages/default.aspx">UPM Formi</a>. The members of the winning team will also be offered a chance to participate UPM’s Slush pre-event at UPM Biofore House and present their winning solution for UPM and its stakeholders.</p>
+          <p>Groundbreaking pairs of <a href="http://www.genelec.com/studio-monitors/m-series-studio-monitors/m030-studio-monitor" style="color: rgb(91, 200, 215);">Genelec M030 studio monitors</a> for winning team members. Monitors are made from sustainable and recyclable natural composite – <a href="http://www.upm.com/formi/Pages/default.aspx" style="color: rgb(91, 200, 215);">UPM Formi</a>. The members of the winning team will also be offered a chance to participate UPM’s Slush pre-event at UPM Biofore House and present their winning solution for UPM and its stakeholders.</p>
           <div class="text-center"><div class="button" style="margin: 0 auto;"><a href="https://register.hackjunction.com" style="color: rgb(91, 200, 215);">APPLY</a></div></div>
 
       </div>

@@ -92,8 +92,6 @@
             - <b>Second prize €1000</b><br>
             - <b>Third prize: €500</b><br>
           <p>The winner will be the concept that best takes advantage of all the data currently available from intelligent building sensors and will benefit the widest group of people. It should also be a viable, business-ready solution that can be developed into a production version in no more than three months.</p>
-          <h2 class="text-center" style="margin-top:100px;"><span style="font-weight:700;">ABOUT THE COMPANY</span></h2>
-          <p>In a rapidly changing world, every bit of information can be used to provide new value. Tieto aims to capture the significant opportunities of the datadriven world and turn them into lifelong value for people, business and society. Having a strong role in the ecosystems, we use our software and services capabilities to create tools and services that simplify everyday life of millions of people; to help our customers renew their businesses by capturing the opportunities of modernization, digitalization and innovation and to foster new opportunities based on openness, coinnovation and ecosystems.</p>
           <div class="text-center"><div class="button" style="margin: 0 auto;"><a href="https://register.hackjunction.com" style="color: rgb(91, 200, 215);">APPLY</a></div></div>
 
       </div>
@@ -112,8 +110,8 @@
          <p>This challenge is all about making people more aware of energy issues. There is a wealth of information both for households and huge companies that could be turned into insight on global energy problems. At home you could combine public information such as weather forecasts or energy price data, all sorts of sensors and your own energy usage information to draw data on which to build applications or devices that make every day at least a little bit more energy efficient.</p>
          <p>Here are some of examples of solutions to get your creative minds going. First, a user friendly way to give information about energy usage to households that makes living easier in this world full of carbon intensive energy and volatile energy prices. Second, dishwasher suggesting you the best time of the day to use it. Third, your heated towel rack knowing to stop heating when the towel is dry and only warm it up just before you take your shower.</p>
          <p>Think about pieces of information that would combine into something interesting for households or businesses. We provide you with some helpful sources to familiarize you with the complex world of energy:<br>
-          -<a href="http://www.nordpoolspot.com/Market-data1/#/nordic/table">Market data</a><br>
-          -<a href="https://services.greenbuttondata.org/sample-data-new.html">Sample datasets and information</a></p>
+          -<a href="http://www.nordpoolspot.com/Market-data1/#/nordic/table" style="color: rgb(91, 200, 215);">Market data</a><br>
+          -<a href="https://services.greenbuttondata.org/sample-data-new.html" style="color: rgb(91, 200, 215);">Sample datasets and information</a></p>
          <h4>Criteria for winning</h4>
          <p>Judging criterias are novelty of the solution, catchiness for patient engagement, completeness of communication between all stakeholders, and overall quality of the design.</p>
          <h4>Prize</h4>

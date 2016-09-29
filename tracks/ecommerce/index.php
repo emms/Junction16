@@ -29,7 +29,7 @@
           <h2 class="text-center">CHALLENGES</h2>
              <div class="challenge-logo">
                 <div class="col-md-4 col-sm-4"></div>
-                 <div class="col-md-4 col-sm-4"><div class="partner-logo zalando" style="height: 100px; padding-bottom: 0px;"></div></div>
+                 <div class="col-md-4 col-sm-4"><div class="partner-logo zalando" style="height: 150px; padding-bottom: 0px;"></div></div>
                  <div class="col-md-4 col-sm-4"></div>
              </div>
              <div class="clear"></div>
@@ -63,9 +63,9 @@
           <div class="challenge-info zalando"></div>
           <h2 class="track-heading">Zalando: Fashion as a service</h2>
           <h4>Challenge</h4>
-          <p>The call is out there for all you creative and talented hackers to develop something amazing over the Junction weekend! Work with our <a href="https://github.com/zalando/shop-api-documentation">Shop API</a>,  which gives you access to the Zalando web shop and allows a number of operations, such as searching for articles, categories, filters or brands on offer, and access to details about them. Use your imagination and combine it with some other available services to create a unique experience.</p>
-          <p>Some examples we’ve seen in the past are: combining weather API & Zalando Shop API to provide outfits for different types of weather, or the creation of Fashion Tinder. This time you could e.g. use APIs from the other tracks together with ours, or just go wild and create something (fashion) e-commerce related! For inspiration, check <a href="https://annual-report.zalando.com/2015/#en/platform">here</a> to see where we are taking the future of fashion retail.</p>
-          <p>Details of our <a href="https://api.zalando.com/">API</a> are available here. You will find more info on demos and documentation.</p>
+          <p>The call is out there for all you creative and talented hackers to develop something amazing over the Junction weekend! Work with our <a href="https://github.com/zalando/shop-api-documentation" style="color: rgb(91, 200, 215);">Shop API</a>,  which gives you access to the Zalando web shop and allows a number of operations, such as searching for articles, categories, filters or brands on offer, and access to details about them. Use your imagination and combine it with some other available services to create a unique experience.</p>
+          <p>Some examples we’ve seen in the past are: combining weather API & Zalando <a href="https://github.com/zalando/shop-api-documentation" style="color: rgb(91, 200, 215);">Shop API</a> to provide outfits for different types of weather, or the creation of Fashion Tinder. This time you could e.g. use APIs from the other tracks together with ours, or just go wild and create something (fashion) e-commerce related! For inspiration, check <a href="https://annual-report.zalando.com/2015/#en/platform">here</a> to see where we are taking the future of fashion retail.</p>
+          <p>Details of our <a href="https://api.zalando.com/" style="color: rgb(91, 200, 215);">API are available here</a>. You will find more info on demos and documentation.</p>
           <h4>Criteria for winning</h4>
           <p>The use of Zalando Shop API, imagination, and creativity!</p>
           <!--<h4>Prize</h4>
