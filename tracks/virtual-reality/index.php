@@ -13,7 +13,7 @@
       </header>
 
     <div class="text">
-        <h2 class="text-center hostedby"><span style="font-weight:700;">HOSTED</span> BY</h2>
+        <h2 class="text-center hostedby"><span style="font-weight:700;">HOSTED</span> <span style="font-weight:300;"> BY</span></h2>
         <div >
             <div class="col-md-4 col-sm-4"></div>
             <div class="col-md-2 col-sm-2"><div class="partner-logo unity" style=""></div></div>
@@ -21,7 +21,7 @@
             <div class="col-md-4 col-sm-4"></div>
         </div>
         <div class="clear"></div>
-        <h2 class="text-center"><span style="font-weight:700;">TRACK</span> SUMMARY</h2>
+        <h2 class="text-center"><span style="font-weight:700;">TRACK</span> <span style="font-weight:300;"></span></h2>
         <!--<h2 class="text-center" style="margin-top:100px;"><span style="font-weight:700;">CHALLENGE</span></h2>-->
         <p>Virtual reality is red hot right now, and this track is meant for those interested in building immersive, engaging experiences for real industry applications. There’s very few industries in the world that aren’t looking at VR with lustful eyes. </p>
         <p>From fashion and sports to architecture and film, data visualisation and engineering to education and healthcare, every sector will be impacted by the rise of VR. We want to turn that hype into reality, and that’s why we’re looking for VR enthusiasts and newbies to come to Junction and build something useful with the latest and greatest in VR tech and APIs. Does that sound like you? Sign up now!</p>
